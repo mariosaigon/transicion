@@ -1,0 +1,24 @@
+Sep 27 00:00:11  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Sep 27 00:00:17  [info] admin (::1) op.Login
+Sep 27 00:02:13  [info] admin (::1) op.ViewOnline.php?documentid=12&version=1
+Sep 27 00:18:58  [info] admin (::1) op.Login
+Sep 27 00:21:24  [info] admin (::1) op.Login
+Sep 27 06:22:16  [info] Flor Idania Romero de Fernandez (::1) op.Login
+Sep 27 06:22:21  [info] Flor Idania Romero de Fernandez (::1) op.Ajax.php?command=deletedocument&id=17&formtoken=2f5fd5b9c6dce3d93481c13b156695a2
+Sep 27 06:22:23  [info] Flor Idania Romero de Fernandez (::1) op.Ajax.php?command=deletedocument&id=16&formtoken=2f5fd5b9c6dce3d93481c13b156695a2
+Sep 27 06:22:25  [info] Flor Idania Romero de Fernandez (::1) op.Ajax.php?command=deletedocument&id=15&formtoken=2f5fd5b9c6dce3d93481c13b156695a2
+Sep 27 06:22:28  [info] Flor Idania Romero de Fernandez (::1) op.Ajax.php?command=deletedocument&id=14&formtoken=2f5fd5b9c6dce3d93481c13b156695a2
+Sep 27 06:24:41  [info] Flor Idania Romero de Fernandez (::1) op.AddDocument?name=ACTA_INEXISTENCIA_BCR1&folderid=13
+Sep 27 06:26:59  [info] Flor Idania Romero de Fernandez (::1) op.Ajax.php?command=deletedocument&id=13&formtoken=2f5fd5b9c6dce3d93481c13b156695a2
+Sep 27 06:29:25  [info] Flor Idania Romero de Fernandez (::1) op.AddDocument?name=Plan de Seguridad del Banco Central de Reserva de El Salvador&folderid=13
+Sep 27 06:33:43  [info] admin (::1) op.Login
+Sep 27 06:34:53  [info] admin (::1) op.TriggerWorkflow?documentid=29&version1
+Sep 27 06:41:42  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=6
+Sep 27 06:41:51  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=85b930e074b20092ab1fc2dae9485781?userid=6
+Sep 27 06:41:58  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=12&formtoken=a71672642c047335df6ff09955b07134
+Sep 27 06:50:23  [info] OI_BCR (::1) op.ViewOnline.php?documentid=29&version=1
+Sep 27 06:53:34  [info] OI_BCR (::1) op.ResetSu
+Sep 27 06:54:41  [info] admin (::1) op.Ajax.php?command=deletedocument&id=23&formtoken=a71672642c047335df6ff09955b07134
+Sep 27 06:55:25  [info] admin (::1) op.AddDocument?name=central1&folderid=1
+Sep 27 08:45:20  [info] OI_BCR (::1) op.Login
+Sep 27 23:49:59  [info] OI_BCR (::1) op.Login

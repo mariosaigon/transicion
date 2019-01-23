@@ -1,0 +1,6 @@
+Jul 30 16:56:17  [info] admin (190.86.206.89) op.Login
+Jul 30 16:56:39  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jul 30 16:57:29  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jul 30 16:57:33  [info] admin (190.86.206.89) op.Login
+Jul 30 16:58:57  [info] admin (190.86.206.89) op.UsrMgr.php&action=adduser&login=vhernandez@iaip.gob.sv
+Jul 30 16:59:07  [info] vhernandez@iaip.gob.sv (190.86.206.89) op.Login

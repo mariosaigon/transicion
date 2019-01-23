@@ -1,0 +1,13 @@
+Jan 07 08:30:19  [info] admin (190.86.149.211) op.Login
+Jan 07 08:30:29  [info] guest (190.86.149.211) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Jan 07 08:36:57  [info] guest (190.86.149.211) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Jan 07 08:37:51  [info] guest (190.86.149.211) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Jan 07 11:01:06  [info] OI_BCR (190.86.149.211) op.Login
+Jan 07 11:08:19  [info] OI_MOP (190.86.149.211) op.Login
+Jan 07 11:08:42  [info] OI_BCR (190.86.149.211) op.Login
+Jan 07 22:45:10  [info] OI_BCR (::1) op.Login
+Jan 07 23:08:14  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=78&formtoken=fbb37504be3c82be50103f1bce0e0816
+Jan 07 23:08:16  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=77&formtoken=fbb37504be3c82be50103f1bce0e0816
+Jan 07 23:08:18  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=72&formtoken=fbb37504be3c82be50103f1bce0e0816
+Jan 07 23:08:21  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=71&formtoken=fbb37504be3c82be50103f1bce0e0816
+Jan 07 23:08:24  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=70&formtoken=fbb37504be3c82be50103f1bce0e0816

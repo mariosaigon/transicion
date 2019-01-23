@@ -1,0 +1,13 @@
+Jul 27 10:28:22  [info] guest (190.86.206.89) op.Download.php?documentid=136&version=1
+Jul 27 10:28:56  [info] guest (190.86.206.89) op.Download.php?documentid=136&version=1
+Jul 27 10:28:59  [info] guest (190.86.206.89) op.Download.php?documentid=136&version=1
+Jul 27 10:31:58  [info] guest (190.86.206.89) op.Download.php?documentid=136&version=1
+Jul 27 10:33:37  [info] admin (190.86.206.89) op.Login
+Jul 27 10:34:06  [info] admin (190.86.206.89) op.EditFolder?folderid=16
+Jul 27 10:34:25  [info] admin (190.86.206.89) op.EditFolder?folderid=17
+Jul 27 10:52:05  [info] admin (190.86.206.89) op.EditDocument?documentid=137
+Jul 27 10:54:51  [info] admin (190.86.206.89) op.TriggerWorkflow?documentid=137&version1
+Jul 27 10:55:18  [error] admin (190.86.206.89) op.UpdateDocument UI::exitError error=Envío (Upload) fallido. Por favor contacte con el Administrador. pagetitle=Documento 'Disciplinario'
+Jul 27 10:56:18  [info] admin (190.86.206.89) op.EditDocument?documentid=136
+Jul 27 10:56:48  [info] admin (190.86.206.89) op.EditDocument?documentid=136
+Jul 27 10:57:05  [info] admin (190.86.206.89) op.TriggerWorkflow?documentid=136&version1

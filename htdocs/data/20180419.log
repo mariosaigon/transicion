@@ -1,0 +1,8 @@
+Apr 19 12:04:29  [info] guest (190.86.206.89) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Apr 19 12:09:19  [info] admin (190.86.206.89) op.Login
+Apr 19 13:17:09  [info] guest (190.86.206.89) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Apr 19 13:19:53  [info] guest (190.86.206.89) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Apr 19 13:26:48  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Apr 19 13:27:01  [info] admin (190.86.206.89) op.Login
+Apr 19 13:33:13  [info] admin (190.86.206.89) op.AddSubFolder?name=prueba1&folderid=87
+Apr 19 13:33:44  [info] admin (190.86.206.89) op.EditFolder?folderid=168

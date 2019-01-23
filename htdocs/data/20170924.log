@@ -1,0 +1,18 @@
+Sep 24 00:44:24  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=6f4c0d1b74e8d1ddd8b108fc4a306a7f?userid=6
+Sep 24 00:44:31  [info] OI_BCR (::1) op.ViewOnline.php?documentid=12&version=1
+Sep 24 00:55:03  [info] OI_BCR (::1) op.ResetSu
+Sep 24 05:53:09  [info] admin (::1) op.Download.php?documentid=12&version=1
+Sep 24 06:00:27  [info] admin (::1) op.Download.php?documentid=12&version=1
+Sep 24 06:00:31  [info] admin (::1) op.Download.php?documentid=12&version=1
+Sep 24 07:33:18  [info] admin (::1) op.SubstituteUser.php?userid=5&formtoken=6f4c0d1b74e8d1ddd8b108fc4a306a7f?userid=5
+Sep 24 07:33:49  [error] OI_RREE (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Ministerio de Relaciones Exteriores (RR.EE.)'
+Sep 24 07:34:06  [error] OI_RREE (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Ministerio de Relaciones Exteriores (RR.EE.)'
+Sep 24 07:34:35  [info] OI_RREE (::1) op.AddDocument?name=HOLA MARIO&folderid=8
+Sep 24 07:34:53  [info] OI_RREE (::1) op.ResetSu
+Sep 24 09:09:38  [info] admin (::1) op.SubstituteUser.php?userid=5&formtoken=6f4c0d1b74e8d1ddd8b108fc4a306a7f?userid=5
+Sep 24 09:10:14  [info] OI_RREE (::1) op.AddDocument?name=otro que caducará printo&folderid=8
+Sep 24 09:10:20  [info] OI_RREE (::1) op.ResetSu
+Sep 24 09:35:43  [info] OI_BCR (::1) op.Login
+Sep 24 09:35:54  [info] admin (::1) op.Login
+Sep 24 09:38:48  [info] admin (::1) op.Login
+Sep 24 15:10:23  [info] admin (::1) op.Login

@@ -1,0 +1,23 @@
+Jan 10 09:33:26  [info] guest (190.5.135.101) op.Download.php?documentid=56&version=1
+Jan 10 09:33:54  [info] admin (190.5.135.101) op.Login
+Jan 10 09:37:39  [error] -- (190.5.135.101) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 10 09:37:43  [info] OI_MOP (190.5.135.101) op.Login
+Jan 10 09:38:01  [error] OI_MOP (190.5.135.101) op.AddDocument UI::exitError error=Valores mínimos del atributo pagetitle=Carpeta 'Ministerio de Obras Públicas'
+Jan 10 09:38:30  [info] OI_MOP (190.5.135.101) op.AddDocument?name=facebook.jpg&folderid=9
+Jan 10 09:38:41  [info] OI_MOP (190.5.135.101) op.ViewOnline.php?documentid=53&version=1
+Jan 10 09:39:02  [info] admin (190.5.135.101) op.Login
+Jan 10 09:40:38  [info] OI_MOP (190.5.135.101) op.Login
+Jan 10 09:41:01  [error] OI_MOP (190.5.135.101) op.AddDocument UI::exitError error=Valores mínimos del atributo pagetitle=Carpeta 'Ministerio de Obras Públicas'
+Jan 10 09:42:01  [error] -- (190.5.135.101) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 10 09:42:06  [info] admin (190.5.135.101) op.Login
+Jan 10 09:44:52  [info] admin (190.5.135.101) op.Download.php?documentid=132&version=1
+Jan 10 09:45:01  [info] admin (190.5.135.101) op.Download.php?documentid=132&version=1
+Jan 10 09:45:49  [info] admin (190.5.135.101) op.TriggerWorkflow?documentid=132&version1
+Jan 10 09:46:36  [info] guest (190.5.135.101) op.ViewOnline.php?documentid=132&version=1
+Jan 10 09:54:50  [info] OI_SAN_FRAN_MENENDEZ (190.5.135.101) op.Login
+Jan 10 09:57:25  [info] admin (190.5.135.101) op.Login
+Jan 10 10:08:07  [info] admin (190.5.135.101) op.Download.php?logname=20190109.log
+Jan 10 10:14:58  [info] OI_SAN_FRAN_MENENDEZ (190.5.135.101) op.Login
+Jan 10 10:16:11  [info] OI_SAN_FRAN_MENENDEZ (190.5.135.101) op.ViewOnline.php?documentid=68&version=1
+Jan 10 10:16:31  [info] OI_SAN_FRAN_MENENDEZ (190.5.135.101) op.AddFile?name=adjunto 1&documentid=32
+Jan 10 10:16:46  [info] OI_SAN_FRAN_MENENDEZ (190.5.135.101) op.Download.php?documentid=32&file=1

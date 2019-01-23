@@ -1,0 +1,13 @@
+Dec 04 10:18:18  [info] admin (190.86.206.89) op.Login
+Dec 04 10:31:33  [info] admin (190.86.206.89) op.ClearCache
+Dec 04 10:32:47  [info] admin (190.86.206.89) op.ClearCache
+Dec 04 10:44:53  [info] OI_MOP (190.86.206.89) op.Login
+Dec 04 10:48:56  [info] OI_MOP (190.86.206.89) op.AddDocument?name=Listado de armas compradas&folderid=9
+Dec 04 10:49:37  [info] OI_MOP (190.86.206.89) op.Download.php?documentid=87&version=1
+Dec 04 10:50:55  [info] admin (190.86.206.89) op.Login
+Dec 04 10:52:35  [info] admin (190.86.206.89) op.TriggerWorkflow?documentid=87&version1
+Dec 04 10:59:27  [info] OI_MOP (190.86.206.89) op.Login
+Dec 04 11:00:09  [info] OI_MOP (190.86.206.89) op.EditDocument?documentid=87
+Dec 04 11:00:43  [info] OI_MOP (190.86.206.89) op.RewindWorkflow?documentid=87&version1
+Dec 04 11:03:05  [info] admin (190.86.206.89) op.Login
+Dec 04 11:58:04  [info] admin (200.89.86.23) op.Login

@@ -1,0 +1,21 @@
+Nov 08 15:23:55  [info] admin (190.62.37.35) op.Login
+Nov 08 16:49:54  [error] -- (190.62.37.35) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Nov 08 16:50:41  [error] -- (190.62.37.35) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Nov 08 16:53:27  [info] OI_BCR (190.62.37.35) op.Login
+Nov 08 16:54:00  [info] admin (190.62.37.35) op.Login
+Nov 08 16:55:02  [info] OI_BCR (190.62.37.35) op.Login
+Nov 08 16:55:13  [info] OI_BCR (190.62.37.35) op.ViewOnline.php?documentid=70&version=1
+Nov 08 16:55:21  [info] admin (190.62.37.35) op.Login
+Nov 08 16:55:51  [info] admin (190.62.37.35) op.OverrideContentStatus?documentid=70
+Nov 08 17:01:42  [info] admin (190.62.37.35) op.ClearCache
+Nov 08 17:07:48  [info] OI_BCR (190.62.37.35) op.Login
+Nov 08 17:09:33  [info] admin (190.62.37.35) op.Login
+Nov 08 17:16:22  [info] admin (190.62.37.35) op.TriggerWorkflow?documentid=78&version1
+Nov 08 17:16:32  [info] OI_BCR (190.62.37.35) op.Login
+Nov 08 17:17:26  [info] OI_BCR (190.62.37.35) op.EditAttributes?documentid=78
+Nov 08 17:17:56  [info] OI_BCR (190.62.37.35) op.RewindWorkflow?documentid=78&version1
+Nov 08 17:18:11  [info] admin (190.62.37.35) op.Login
+Nov 08 17:18:30  [info] admin (190.62.37.35) op.Download.php?documentid=78&version=1
+Nov 08 17:18:36  [info] admin (190.62.37.35) op.ViewOnline.php?documentid=78&version=1
+Nov 08 17:38:42  [info] admin (190.62.37.35) op.TriggerWorkflow?documentid=78&version1
+Nov 08 17:40:19  [info] OI_BCR (190.62.37.35) op.Login

@@ -1,0 +1,9 @@
+Oct 29 16:51:32  [info] admin (::1) op.Login
+Oct 29 16:51:48  [info] admin (::1) op.Login
+Oct 29 16:51:53  [info] OI_BCR (::1) op.Login
+Oct 29 16:52:40  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Banco Central de Reserva'
+Oct 29 16:54:42  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Oct 29 16:54:46  [info] admin (::1) op.Login
+Oct 29 16:55:09  [info] OI_BCR (::1) op.Login
+Oct 29 16:55:30  [info] OI_BCR (::1) op.AddDocument?name=dasdas&folderid=13
+Oct 29 16:57:37  [info] admin (::1) op.Login

@@ -1,0 +1,14 @@
+Mar 13 17:03:28  [info] admin (::1) op.Login
+Mar 13 17:10:55  [info] OI_BCR (::1) op.Login
+Mar 13 17:34:30  [info] OI_BCR (::1) op.Login
+Mar 13 17:35:02  [info] admin (::1) op.Login
+Mar 13 17:59:24  [info] admin (::1) op.Settings.php&action=savesettings
+Mar 13 18:04:55  [info] OI_BCR (::1) op.Login
+Mar 13 18:05:04  [info] OI_BCR (::1) op.Download.php?documentid=87&version=1
+Mar 13 18:06:30  [info] OI_BCR (::1) op.Login
+Mar 13 18:06:38  [info] admin (::1) op.Login
+Mar 13 18:06:46  [info] OI_BCR (::1) op.Login
+Mar 13 18:11:37  [info] admin (::1) op.Login
+Mar 13 21:09:11  [info] admin (179.5.103.39) op.Login
+Mar 13 21:09:47  [info] OI_BCR (179.5.103.39) op.Login
+Mar 13 21:20:01  [info] OI_BCR (179.5.103.39) op.Login

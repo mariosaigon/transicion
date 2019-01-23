@@ -1,0 +1,5 @@
+Oct 18 05:15:16  [info] admin (::1) op.Login
+Oct 18 22:52:53  [error] admin (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Banco Central de Reserva'
+Oct 18 23:15:25  [error] admin (::1) op.AddDocument UI::exitError error=Nombre de documento duplicado pagetitle=Carpeta 'Banco Central de Reserva'
+Oct 18 23:15:46  [info] OI_BCR (::1) op.Login
+Oct 18 23:17:06  [info] OI_BCR (::1) op.AddDocument?name=Catálogo de firmas autorizadas para aprobación de operaciones del BCR y sus respectivas notificaciones tanto permanentes como temporales;  y Catálogo de usuarios y claves de acceso al Sistema de Administración de Recursos Humanos y Sistema de la Clínica Médica.&folderid=13

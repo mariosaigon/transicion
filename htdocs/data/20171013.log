@@ -1,0 +1,25 @@
+Oct 13 00:12:39  [info] admin (::1) op.ClearCache
+Oct 13 00:25:35  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 13 00:25:40  [info] admin (::1) op.Login
+Oct 13 00:55:35  [info] admin (::1) op.ClearCache
+Oct 13 01:51:28  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 13 01:51:49  [info] OI_ALCAL_AHUAC (::1) op.AddDocument?name=Acta de inexistencia Alcaldía de Ahuachapán&folderid=33
+Oct 13 01:51:57  [info] admin (::1) op.Login
+Oct 13 04:46:37  [info] admin (::1) op.Login
+Oct 13 05:20:02  [info] OI_BCR (::1) op.Login
+Oct 13 05:20:20  [info] OI_BCR (::1) op.AddDocument?name=Acta inexistencia BCR&folderid=13
+Oct 13 05:20:36  [info] OI_MOP (::1) op.Login
+Oct 13 05:20:39  [info] OI_MOP (::1) op.Ajax.php?command=deletedocument&id=27&formtoken=dd8cc44aaaacd7672739d9d784f4e55b
+Oct 13 05:21:04  [info] OI_MOP (::1) op.AddDocument?name=Acta de inexistencia MOP&folderid=9
+Oct 13 05:21:19  [info] admin (::1) op.Login
+Oct 13 06:29:27  [info] admin (::1) op.Login
+Oct 13 18:45:01  [info] admin (::1) op.Login
+Oct 13 19:53:38  [info] OI_BCR (::1) op.Login
+Oct 13 19:53:50  [info] admin (::1) op.Login
+Oct 13 22:04:15  [info] admin (::1) op.ClearCache
+Oct 13 22:11:13  [info] admin (::1) op.Ajax.php?command=deletedocument&id=37&formtoken=0a11698361bc6f4d2cd2d6e1d37bc279
+Oct 13 22:19:48  [info] admin (::1) op.TriggerWorkflow?documentid=48&version1
+Oct 13 22:20:04  [info] admin (::1) op.Ajax.php?command=deletedocument&id=49&formtoken=0a11698361bc6f4d2cd2d6e1d37bc279
+Oct 13 22:20:38  [info] admin (::1) op.ClearCache
+Oct 13 22:22:37  [info] admin (::1) op.Ajax.php?command=deletedocument&id=52&formtoken=0a11698361bc6f4d2cd2d6e1d37bc279
+Oct 13 23:23:58  [info] admin (::1) op.Download.php?documentid=36&file=1

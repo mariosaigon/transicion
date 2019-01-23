@@ -1,0 +1,26 @@
+Feb 02 00:05:50  [info] OI_MOP (::1) op.Login
+Feb 02 00:06:05  [error] OI_MOP (::1) op.EditAttributes UI::exitError error=El tipo de archivo subido no coincide con el existente en la versión actual pagetitle=Documento 'Acta de inexistencia MOP'
+Feb 02 00:15:25  [info] OI_RREE (::1) op.Login
+Feb 02 00:15:32  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Feb 02 00:15:55  [info] OI_BCR (::1) op.Login
+Feb 02 00:16:07  [info] admin (::1) op.Login
+Feb 02 00:16:21  [info] admin (::1) op.TriggerWorkflow?documentid=87&version1
+Feb 02 00:18:26  [info] OI_BCR (::1) op.Login
+Feb 02 16:34:23  [info] OI_BCR (::1) op.Login
+Feb 02 16:34:28  [info] admin (::1) op.Login
+Feb 02 16:35:54  [info] guest (::1) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Feb 02 16:37:28  [info] admin (::1) op.Login
+Feb 02 18:48:45  [info] OI_BCR (::1) op.Login
+Feb 02 18:50:11  [info] admin (::1) op.Login
+Feb 02 18:50:39  [info] admin (::1) op.Login
+Feb 02 18:50:48  [info] OI_BCR (::1) op.Login
+Feb 02 22:42:41  [info] admin (::1) op.Login
+Feb 02 23:13:50  [info] OI_BCR (::1) op.Login
+Feb 02 23:18:49  [info] OI_BCR (::1) op.EditUserData?user=OI_BCR
+Feb 02 23:18:53  [info] OI_BCR (::1) op.Login
+Feb 02 23:28:27  [error] -- (::1) op.Login UI::exitError error=Nombre de usuario no facilitado.
+ pagetitle=Error de acceso
+Feb 02 23:28:30  [info] admin (::1) op.Login
+Feb 02 23:29:54  [info] admin (::1) op.Login
+Feb 02 23:30:10  [info] guest (::1) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Feb 02 23:32:28  [info] OI_BCR (::1) op.Login

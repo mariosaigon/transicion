@@ -1,0 +1,5 @@
+Sep 18 23:29:06  [info] admin (::1) op.Login
+Sep 18 23:29:25  [error] admin (::1) op.AddProcess UI::exitError error=**dberror_occured** pagetitle=**add_process**
+Sep 18 23:43:32  [info] admin (::1) op.ExtensionMgr
+Sep 18 23:52:04  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 18 23:52:12  [info] admin (::1) op.Login

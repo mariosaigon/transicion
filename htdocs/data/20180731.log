@@ -1,0 +1,6 @@
+Jul 31 10:46:59  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jul 31 10:46:59  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jul 31 10:47:05  [info] admin (190.86.206.89) op.Login
+Jul 31 10:48:56  [info] admin (190.86.206.89) op.Download.php?documentid=136&version=1
+Jul 31 11:04:27  [info] admin (190.86.206.89) op.Ajax.php?command=tooglelockdocument&id=136
+Jul 31 11:48:06  [info] vhernandez@iaip.gob.sv (190.86.206.89) op.Login

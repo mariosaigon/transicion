@@ -1,0 +1,3 @@
+Jul 11 17:54:47  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jul 11 17:54:54  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jul 11 17:54:59  [info] admin (190.86.206.89) op.Login

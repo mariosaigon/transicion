@@ -1,0 +1,43 @@
+Sep 20 16:56:21  [info] admin (::1) op.Login
+Sep 20 16:56:29  [info] admin (::1) op.Ajax.php?command=deletefolder&id=3&formtoken=81801d644a76d9165f5086d1f3e0936b
+Sep 20 16:56:32  [info] admin (::1) op.Ajax.php?command=deletefolder&id=2&formtoken=81801d644a76d9165f5086d1f3e0936b
+Sep 20 17:14:13  [info] admin (::1) op.Login
+Sep 20 17:16:01  [info] admin (::1) op.Login
+Sep 20 17:16:33  [info] admin (::1) op.ExtensionMgr
+Sep 20 17:43:24  [info] admin (::1) op.Ajax.php?command=deletefolder&id=4&formtoken=d2252b845d3b3956eec1a338f7e7ff15
+Sep 20 17:43:43  [info] admin (::1) op.AddSubFolder?name=Ministerio de Salud (MINSAL)&folderid=1
+Sep 20 17:43:59  [info] admin (::1) op.AddSubFolder?name=Ministerio de Trabajo y Previsión Social (MTPS)&folderid=1
+Sep 20 17:44:16  [info] admin (::1) op.AddSubFolder?name=Ministerio  de Turismo (MITUR)&folderid=1
+Sep 20 17:44:35  [info] admin (::1) op.AddSubFolder?name=Ministerio de Relaciones Exteriores (RR.EE.)&folderid=1
+Sep 20 17:45:05  [error] admin (::1) op.AddSubFolder UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Directorio central'
+Sep 20 17:45:15  [error] admin (::1) op.AddSubFolder UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Directorio central'
+Sep 20 17:45:32  [error] admin (::1) op.AddSubFolder UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Directorio central'
+Sep 20 17:45:40  [info] admin (::1) op.AddSubFolder?name=MOP&folderid=1
+Sep 20 17:47:03  [info] admin (::1) op.UsrMgr.php&action=adduser&login=OI_MOP
+Sep 20 17:47:14  [info] OI_MOP (::1) op.Login
+Sep 20 17:47:30  [info] admin (::1) op.Login
+Sep 20 17:49:05  [info] admin (::1) op.GroupMgr?groupid=1&action=removegroup
+Sep 20 17:49:16  [info] admin (::1) op.EditFolder?folderid=9
+Sep 20 17:49:28  [info] admin (::1) op.FolderAccess.php?formtoken=6e36cc10fba4d46376d44e5c6def659f&folderid=9&action=notinherit&mode=empty
+Sep 20 17:49:53  [info] admin (::1) op.FolderAccess.php?formtoken=6e36cc10fba4d46376d44e5c6def659f&folderid=9&action=addaccess&userid=4&groupid=-1&mode=3
+Sep 20 17:50:02  [info] admin (::1) op.FolderAccess.php?formtoken=6e36cc10fba4d46376d44e5c6def659f&folderid=9&action=editaccess&userid=4&mode=3
+Sep 20 17:50:04  [info] admin (::1) op.FolderAccess.php?formtoken=6e36cc10fba4d46376d44e5c6def659f&folderid=9&action=setdefault&mode=2
+Sep 20 17:50:14  [info] OI_MOP (::1) op.Login
+Sep 20 17:50:55  [info] OI_MOP (::1) op.Login
+Sep 20 17:53:17  [info] admin (::1) op.Login
+Sep 20 17:55:55  [info] admin (::1) op.GroupMgr&action=addgroup&name=Oficiales de Información
+Sep 20 17:56:23  [info] admin (::1) op.FolderAccess.php?formtoken=04113bbeaaa50d7e232ffc736aa0798a&folderid=9&action=inherit
+Sep 20 17:56:27  [info] admin (::1) op.FolderAccess.php?formtoken=04113bbeaaa50d7e232ffc736aa0798a&folderid=9&action=notinherit&mode=copy
+Sep 20 17:56:28  [info] admin (::1) op.FolderAccess.php?formtoken=04113bbeaaa50d7e232ffc736aa0798a&folderid=9&action=inherit
+Sep 20 17:57:12  [info] OI_MOP (::1) op.Login
+Sep 20 17:58:05  [info] OI_MOP (::1) op.Login
+Sep 20 17:59:27  [info] admin (::1) op.Login
+Sep 20 17:59:49  [info] admin (::1) op.FolderAccess.php?formtoken=2f6f73155ef4b7c03cf9bf8165e31607&folderid=9&action=notinherit&mode=empty
+Sep 20 18:00:04  [info] admin (::1) op.FolderAccess.php?formtoken=2f6f73155ef4b7c03cf9bf8165e31607&folderid=9&action=setdefault&mode=3
+Sep 20 18:00:09  [info] admin (::1) op.FolderAccess.php?formtoken=2f6f73155ef4b7c03cf9bf8165e31607&folderid=9&action=setdefault&mode=3
+Sep 20 18:00:10  [info] admin (::1) op.FolderAccess.php?formtoken=2f6f73155ef4b7c03cf9bf8165e31607&folderid=9&action=setdefault&mode=3
+Sep 20 18:00:25  [info] OI_MOP (::1) op.Login
+Sep 20 18:02:34  [info] OI_MOP (::1) op.Login
+Sep 20 18:15:04  [info] admin (::1) op.Login
+Sep 20 18:15:35  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 20 18:16:12  [info] admin (::1) op.Settings.php&action=savesettings

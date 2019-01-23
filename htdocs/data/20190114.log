@@ -1,0 +1,6 @@
+Jan 14 11:02:59  [error] -- (190.5.135.101) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 14 11:03:20  [error] -- (190.5.135.101) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 14 11:03:38  [error] -- (190.5.135.101) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 14 11:03:42  [info] admin (190.5.135.101) op.Login
+Jan 14 11:04:18  [info] admin (190.5.135.101) op.Login
+Jan 14 11:04:38  [info] OI_MOP (190.5.135.101) op.Login

@@ -1,0 +1,3 @@
+Jan 22 21:23:30  [info] OI_MOP (::1) op.AddDocument?name=EQWE&folderid=9
+Jan 22 21:24:17  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 22 21:24:26  [info] OI_RREE (::1) op.Login

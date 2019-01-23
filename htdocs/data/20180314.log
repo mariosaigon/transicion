@@ -1,0 +1,132 @@
+Mar 14 00:28:51  [info] OI_BCR (::1) op.Login
+Mar 14 00:53:46  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Valores mínimos del atributo pagetitle=Carpeta 'Banco Central de Reserva'
+Mar 14 00:55:23  [info] OI_BCR (::1) op.Login
+Mar 14 01:19:44  [info] admin (::1) op.Login
+Mar 14 01:20:00  [info] admin (::1) op.TriggerWorkflow?documentid=114&version1
+Mar 14 01:20:05  [info] OI_BCR (::1) op.Login
+Mar 14 05:16:50  [info] guest (190.86.145.221) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Mar 14 05:17:05  [info] admin (190.86.145.221) op.Login
+Mar 14 05:57:19  [info] admin (190.86.145.221) op.Login
+Mar 14 06:08:27  [error] admin (190.86.145.221) op.UsrMgr UI::exitError error=Sólo puede usar imágenes .jpg como imágenes de usuario pagetitle=Administración
+Mar 14 06:10:23  [error] admin (190.86.145.221) op.UsrMgr UI::exitError error=El usuario ya existe. pagetitle=Administración
+Mar 14 06:10:52  [info] admin (190.86.145.221) op.UsrMgr.php&action=removeuser&userid=9
+Mar 14 06:11:50  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_ssf
+Mar 14 06:16:19  [info] admin (190.86.145.221) op.Login
+Mar 14 06:17:39  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_sc
+Mar 14 06:21:42  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_mag
+Mar 14 06:24:21  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_cepa
+Mar 14 06:28:45  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_cajamined
+Mar 14 06:30:55  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_dc
+Mar 14 06:31:13  [info] oficial_dc (190.86.145.221) op.Login
+Mar 14 06:31:46  [info] oficial_dc (190.86.145.221) op.AddDocument?name=prueba dc&folderid=70
+Mar 14 06:31:53  [info] admin (190.86.145.221) op.Login
+Mar 14 06:32:20  [info] admin (190.86.145.221) op.TriggerWorkflow?documentid=118&version1
+Mar 14 06:32:45  [info] oficial_dc (190.86.145.221) op.Login
+Mar 14 06:32:56  [info] oficial_dc (190.86.145.221) op.Ajax.php?command=deletedocument&id=118&formtoken=52480445c7ef77cbec8338c70ee65a22
+Mar 14 06:33:04  [info] admin (190.86.145.221) op.Login
+Mar 14 06:35:26  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_csj
+Mar 14 06:38:36  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=
+Mar 14 06:38:46  [info] admin (190.86.145.221) op.UsrMgr.php&action=removeuser&userid=17
+Mar 14 06:39:30  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_ccr
+Mar 14 06:44:20  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_cefafa
+Mar 14 06:46:44  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_amp
+Mar 14 06:49:20  [info] OI_BCR (190.86.145.221) op.Login
+Mar 14 06:49:27  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=88&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:30  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=98&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:33  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=99&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:36  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=104&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:39  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=106&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:48  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=107&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:51  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=108&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:53  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=109&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:49:56  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=110&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:00  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=112&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:04  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=113&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:07  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=115&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:10  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=116&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:13  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=117&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:27  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=87&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:30  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=114&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:33  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=60&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:36  [info] OI_BCR (190.86.145.221) op.Ajax.php?command=deletedocument&id=102&formtoken=884abb36a194849c7bd04e23c45424f9
+Mar 14 06:50:51  [info] OI_BCR (190.86.145.221) op.Login
+Mar 14 06:51:03  [info] admin (190.86.145.221) op.Login
+Mar 14 06:51:24  [info] admin (190.86.145.221) op.UsrMgr.php&action=removeuser&userid=6
+Mar 14 06:53:15  [info] admin (190.86.145.221) op.UsrMgr.php&action=adduser&login=oficial_bcr
+Mar 14 06:53:33  [info] oficial_bcr (190.86.145.221) op.Login
+Mar 14 06:54:03  [info] oficial_cepa (190.86.145.221) op.Login
+Mar 14 06:54:30  [info] oficial_cefafa (190.86.145.221) op.Login
+Mar 14 06:54:51  [info] oficial_bcr (190.86.145.221) op.Login
+Mar 14 06:57:44  [info] oficial_bcr (190.86.145.221) op.Login
+Mar 14 06:58:06  [info] oficial_cajamined (190.86.145.221) op.Login
+Mar 14 07:14:31  [info] oficial_bcr (190.86.145.221) op.Login
+Mar 14 07:17:56  [info] oficial_bcr (190.86.145.221) op.AddDocument?name=sasa&folderid=13
+Mar 14 07:18:37  [info] oficial_bcr (190.86.145.221) op.AddDocument?name=trterterter&folderid=13
+Mar 14 07:19:43  [info] oficial_bcr (190.86.145.221) op.Ajax.php?command=deletedocument&id=121&formtoken=e1dc0035af1738c2503cbe80350aabd0
+Mar 14 07:19:46  [info] oficial_bcr (190.86.145.221) op.Ajax.php?command=deletedocument&id=122&formtoken=e1dc0035af1738c2503cbe80350aabd0
+Mar 14 07:19:48  [info] oficial_bcr (190.86.145.221) op.Ajax.php?command=deletedocument&id=123&formtoken=e1dc0035af1738c2503cbe80350aabd0
+Mar 14 07:19:50  [info] oficial_bcr (190.86.145.221) op.Ajax.php?command=deletedocument&id=119&formtoken=e1dc0035af1738c2503cbe80350aabd0
+Mar 14 07:19:53  [info] oficial_bcr (190.86.145.221) op.Ajax.php?command=deletedocument&id=120&formtoken=e1dc0035af1738c2503cbe80350aabd0
+Mar 14 08:07:27  [info] OI_SAN_FRAN_MENENDEZ (190.86.145.221) op.Login
+Mar 14 08:19:20  [info] OI_SAN_FRAN_MENENDEZ (190.86.145.221) op.Login
+Mar 14 09:41:27  [info] OI_SAN_FRAN_MENENDEZ (190.86.206.89) op.Login
+Mar 14 10:10:18  [info] oficial_cajamined (190.86.206.89) op.Login
+Mar 14 10:11:47  [info] oficial_bcr (190.86.206.89) op.Login
+Mar 14 10:11:55  [info] oficial_cefafa (190.86.206.89) op.Login
+Mar 14 10:12:34  [info] admin (190.86.206.89) op.Login
+Mar 14 10:18:08  [info] oficial_cefafa (190.86.206.89) op.Login
+Mar 14 10:18:09  [info] oficial_cajamined (200.89.86.35) op.Login
+Mar 14 10:32:58  [info] admin (190.86.206.89) op.Login
+Mar 14 10:42:26  [info] oficial_csj (190.86.206.89) op.Login
+Mar 14 10:44:25  [info] oficial_csj (190.86.206.89) op.Login
+Mar 14 10:56:30  [info] oficial_csj (190.86.206.89) op.Login
+Mar 14 10:56:31  [error] -- (200.89.86.35) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Mar 14 10:57:04  [error] -- (200.89.86.35) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Mar 14 10:59:12  [info] oficial_sc (190.86.206.89) op.Login
+Mar 14 10:59:46  [info] oficial_cefafa (190.86.206.89) op.Login
+Mar 14 11:03:51  [info] oficial_dc (190.86.206.89) op.Login
+Mar 14 11:08:31  [info] guest (190.86.206.89) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Mar 14 11:12:23  [info] oficial_cajamined (190.86.206.89) op.Login
+Mar 14 11:12:38  [info] oficial_csj (190.86.206.89) op.Login
+Mar 14 11:14:31  [info] oficial_csj (190.86.206.89) op.Login
+Mar 14 11:16:35  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Mar 14 11:17:15  [info] oficial_dc (190.86.206.89) op.Login
+Mar 14 11:17:34  [info] oficial_cepa (200.89.86.35) op.Login
+Mar 14 11:21:05  [info] oficial_ccr (190.86.206.89) op.Login
+Mar 14 11:23:49  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Mar 14 11:24:24  [info] oficial_amp (190.86.206.89) op.Login
+Mar 14 11:27:16  [error] oficial_amp (190.86.206.89) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Autoridad Marítima Portuaria'
+Mar 14 11:54:41  [info] oficial_bcr (190.86.206.89) op.Login
+Mar 14 11:55:10  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Mar 14 11:55:53  [info] oficial_cefafa (190.86.206.89) op.AddDocument?name=ACTA DE INEXISTENCIA DE INFORMACION RESERVADA&folderid=50
+Mar 14 11:56:05  [error] -- (190.86.206.89) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Mar 14 11:56:21  [info] oficial_ccr (190.86.206.89) op.Login
+Mar 14 11:56:47  [info] oficial_cajamined (190.86.206.89) op.Login
+Mar 14 11:56:51  [info] oficial_cefafa (190.86.206.89) op.Download.php?documentid=124&version=1
+Mar 14 11:57:00  [info] oficial_amp (190.86.206.89) op.AddDocument?name=prueba 1 AMP&folderid=42
+Mar 14 11:57:05  [info] oficial_mag (190.86.206.89) op.Login
+Mar 14 11:57:15  [error] -- (190.86.206.89) op.Login UI::exitError error=Nombre de usuario no facilitado.
+ pagetitle=Error de acceso
+Mar 14 11:57:38  [info] oficial_ccr (190.86.206.89) op.AddDocument?name=INFORME&folderid=49
+Mar 14 11:57:50  [info] oficial_cepa (190.86.206.89) op.Login
+Mar 14 11:58:01  [info] oficial_sc (190.86.206.89) op.AddDocument?name=Expediente de solicitud de autorización de concentración económica con referencia: SC-057-S/CE/R-2017&folderid=159
+Mar 14 11:58:13  [info] oficial_dc (190.86.206.89) op.AddDocument?name=Expediente de compras 010-11/2017&folderid=70
+Mar 14 12:01:07  [info] oficial_sc (190.86.206.89) op.EditDocument?documentid=127
+Mar 14 12:01:19  [info] oficial_cefafa (190.86.206.89) op.AddDocument?name=EXPEDIENTE&folderid=50
+Mar 14 12:01:34  [info] oficial_cepa (190.86.206.89) op.AddDocument?name=expedientes mèdicos&folderid=87
+Mar 14 12:01:54  [info] oficial_sc (190.86.206.89) op.ViewOnline.php?documentid=127&version=1
+Mar 14 12:03:24  [info] oficial_sc (190.86.206.89) op.EditDocument?documentid=127
+Mar 14 12:03:40  [info] oficial_sc (190.86.206.89) op.ViewOnline.php?documentid=127&version=1
+Mar 14 12:04:33  [info] oficial_sc (190.86.206.89) op.EditDocument?documentid=127
+Mar 14 12:08:45  [info] oficial_dc (190.86.206.89) op.EditDocument?documentid=128
+Mar 14 12:09:38  [info] oficial_amp (190.86.206.89) op.EditDocument?documentid=125
+Mar 14 12:11:29  [info] oficial_amp (190.86.206.89) op.EditDocument?documentid=125
+Mar 14 12:12:25  [info] oficial_cajamined (190.86.206.89) op.AddDocument?name=ACTA DE INEXISTENCIA DE INFORMACION RESERVADA&folderid=48
+Mar 14 12:14:11  [error] oficial_mag (190.86.206.89) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Ministerio de Agricultura y Ganadería'
+Mar 14 12:15:11  [info] oficial_ccr (190.86.206.89) op.AddDocument?name=INFORME DE EFICACIA DE LA GESTIÓN INSTITUCIONAL , PERIODO ENERO A JUNIO  2017&folderid=49
+Mar 14 12:15:20  [info] oficial_ccr (190.86.206.89) op.Download.php?documentid=126&version=1
+Mar 14 12:25:34  [info] oficial_csj (190.86.206.89) op.AddDocument?name=Administrativo&folderid=67
+Mar 14 12:25:37  [error] oficial_csj (190.86.206.89) op.AddDocument UI::exitError error=Nombre de documento duplicado pagetitle=Carpeta 'Corte Suprema de Justicia'
+Mar 14 12:25:38  [info] oficial_cajamined (190.86.206.89) op.ViewOnline.php?documentid=132&version=1
+Mar 14 12:26:11  [error] oficial_csj (190.86.206.89) op.AddDocument UI::exitError error=Nombre de documento duplicado pagetitle=Carpeta 'Corte Suprema de Justicia'
+Mar 14 12:31:53  [info] oficial_csj (190.86.206.89) op.AddDocument?name=Disciplinario&folderid=67

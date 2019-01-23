@@ -1,0 +1,26 @@
+Dec 14 14:56:07  [info] admin (179.5.103.103) op.Login
+Dec 14 14:58:39  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:10:28  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:25:08  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:25:31  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:27:49  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:30:03  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:37:49  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:38:52  [info] admin (179.5.103.103) op.ClearCache
+Dec 14 15:40:57  [info] OI_BCR (179.5.103.103) op.Login
+Dec 14 16:07:53  [info] OI_BCR (179.5.103.103) op.AddDocument?name=Documento&folderid=13
+Dec 14 16:08:03  [info] OI_BCR (179.5.103.103) op.Ajax.php?command=deletedocument&id=88&formtoken=8565deff2bd5a3455d1f116892b74833
+Dec 14 16:32:40  [info] OI_BCR (179.5.103.103) op.AddDocument?name=das&folderid=13
+Dec 14 16:33:05  [info] admin (179.5.103.103) op.Login
+Dec 14 16:33:29  [info] admin (179.5.103.103) op.TriggerWorkflow?documentid=89&version1
+Dec 14 16:33:38  [info] OI_BCR (179.5.103.103) op.Login
+Dec 14 16:37:09  [info] OI_BCR (179.5.103.103) op.AddDocument?name=FF&folderid=13
+Dec 14 16:42:48  [info] OI_BCR (179.5.103.103) op.Login
+Dec 14 17:17:23  [info] admin (179.5.103.103) op.Login
+Dec 14 17:21:04  [info] admin (179.5.103.103) op.Settings.php&action=savesettings
+Dec 14 17:21:18  [info] guest (179.5.103.103) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Dec 14 17:21:34  [info] OI_BCR (179.5.103.103) op.Login
+Dec 14 17:23:17  [info] guest (179.5.103.103) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Dec 14 17:27:53  [info] OI_BCR (179.5.103.103) op.Login
+Dec 14 17:28:12  [error] OI_BCR (179.5.103.103) op.AddDocument UI::exitError error=Nombre de documento duplicado pagetitle=Carpeta 'Banco Central de Reserva'
+Dec 14 17:28:27  [info] OI_BCR (179.5.103.103) op.AddDocument?name=dasdas32443&folderid=13

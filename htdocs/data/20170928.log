@@ -1,0 +1,114 @@
+Sep 28 01:35:01  [info] OI_BCR (::1) op.ViewOnline.php?documentid=29&version=1
+Sep 28 02:18:22  [info] OI_BCR (::1) op.Login
+Sep 28 04:48:36  [info] OI_BCR (::1) op.Login
+Sep 28 04:56:46  [info] admin (::1) op.Login
+Sep 28 04:56:57  [info] OI_MOP (::1) op.Login
+Sep 28 05:33:40  [info] admin (::1) op.Login
+Sep 28 05:39:45  [info] admin (::1) op.AddDocument?name=cacacaca&folderid=1
+Sep 28 05:40:00  [info] admin (::1) op.ViewOnline.php?documentid=29&version=1
+Sep 28 05:40:16  [info] admin (::1) op.EditDocument?documentid=29
+Sep 28 05:52:25  [info] admin (::1) op.EditDocument?documentid=29
+Sep 28 06:09:01  [info] OI_BCR (::1) op.Login
+Sep 28 07:22:24  [info] admin (::1) op.Login
+Sep 28 07:22:31  [info] admin (::1) op.EditFolder?folderid=13
+Sep 28 07:22:38  [info] OI_BCR (::1) op.Login
+Sep 28 09:14:28  [info] OI_BCR (::1) op.Login
+Sep 28 09:15:02  [info] OI_BCR (::1) op.ViewOnline.php?documentid=29&version=1
+Sep 28 09:15:06  [info] OI_BCR (::1) op.Download.php?documentid=29&version=1
+Sep 28 17:10:39  [info] admin (::1) op.Login
+Sep 28 17:17:12  [info] admin (::1) op.AddSubFolder?name=Entes obligados no municipales&folderid=1
+Sep 28 17:17:42  [info] admin (::1) op.AddSubFolder?name=Alcaldías municipales&folderid=1
+Sep 28 17:18:00  [info] admin (::1) op.Ajax.php?command=movefolder&folderid=13&targetfolderid=16&formtoken=875b42657a359b18ea44389eab818f4d
+Sep 28 17:18:11  [info] admin (::1) op.Ajax.php?command=movefolder&folderid=8&targetfolderid=16&formtoken=875b42657a359b18ea44389eab818f4d
+Sep 28 17:18:20  [info] admin (::1) op.Ajax.php?command=movefolder&folderid=7&targetfolderid=16&formtoken=875b42657a359b18ea44389eab818f4d
+Sep 28 17:18:30  [info] admin (::1) op.Ajax.php?command=movefolder&folderid=6&targetfolderid=16&formtoken=875b42657a359b18ea44389eab818f4d
+Sep 28 17:18:36  [info] admin (::1) op.Ajax.php?command=movefolder&folderid=5&targetfolderid=16&formtoken=875b42657a359b18ea44389eab818f4d
+Sep 28 17:18:44  [info] admin (::1) op.Ajax.php?command=movefolder&folderid=9&targetfolderid=16&formtoken=875b42657a359b18ea44389eab818f4d
+Sep 28 17:19:04  [info] OI_BCR (::1) op.Login
+Sep 28 17:20:36  [info] admin (::1) op.Login
+Sep 28 17:30:04  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=f9a6ca453a1a798834e51e9406f530f5?userid=6
+Sep 28 17:30:21  [info] OI_BCR (::1) op.ResetSu
+Sep 28 17:30:26  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=f9a6ca453a1a798834e51e9406f530f5?userid=4
+Sep 28 17:31:18  [info] OI_MOP (::1) op.ResetSu
+Sep 28 17:31:24  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=f9a6ca453a1a798834e51e9406f530f5?userid=6
+Sep 28 17:31:35  [info] OI_BCR (::1) op.ResetSu
+Sep 28 17:32:45  [info] admin (::1) op.Ajax.php?command=deletedocument&id=31&formtoken=a196b5e0b81e2de79ea25f5e2869d1da
+Sep 28 17:32:47  [info] admin (::1) op.Ajax.php?command=deletedocument&id=30&formtoken=a196b5e0b81e2de79ea25f5e2869d1da
+Sep 28 17:32:49  [info] admin (::1) op.Ajax.php?command=deletedocument&id=26&formtoken=a196b5e0b81e2de79ea25f5e2869d1da
+Sep 28 17:33:45  [info] admin (::1) op.AddSubFolder?name=Ahuachapán&folderid=17
+Sep 28 17:34:17  [info] OI_BCR (::1) op.Login
+Sep 28 17:35:29  [info] admin (::1) op.Login
+Sep 28 17:36:22  [info] admin (::1) op.AddSubFolder?name=Cabañas&folderid=17
+Sep 28 17:36:49  [info] admin (::1) op.AddSubFolder?name=Chalatenango&folderid=17
+Sep 28 17:37:30  [info] admin (::1) op.AddSubFolder?name=Cuscatlán&folderid=17
+Sep 28 17:37:57  [info] admin (::1) op.AddSubFolder?name=La Libertad&folderid=17
+Sep 28 17:38:21  [info] admin (::1) op.AddSubFolder?name=La Paz&folderid=17
+Sep 28 17:38:48  [info] admin (::1) op.AddSubFolder?name=La Unión&folderid=17
+Sep 28 17:39:06  [info] admin (::1) op.AddSubFolder?name=Morazán&folderid=17
+Sep 28 17:39:32  [info] admin (::1) op.AddSubFolder?name=San Miguel&folderid=17
+Sep 28 17:39:52  [info] admin (::1) op.AddSubFolder?name=San Salvador&folderid=17
+Sep 28 17:41:58  [info] admin (::1) op.AddSubFolder?name=San Vicente&folderid=17
+Sep 28 17:42:17  [info] admin (::1) op.AddSubFolder?name=Santa Ana&folderid=17
+Sep 28 17:42:44  [info] admin (::1) op.AddSubFolder?name=Sonsonate&folderid=17
+Sep 28 17:43:07  [info] admin (::1) op.AddSubFolder?name= Usulután&folderid=17
+Sep 28 17:48:24  [info] admin (::1) op.AddSubFolder?name=Alcaldía Municipal de Villa de San Francisco Menéndez&folderid=18
+Sep 28 17:50:50  [info] admin (::1) op.UsrMgr.php&action=adduser&login=OI_SAN_FRAN_MENENDEZ
+Sep 28 17:50:58  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 17:51:34  [info] OI_BCR (::1) op.Login
+Sep 28 17:51:56  [info] OI_MOP (::1) op.Login
+Sep 28 17:52:02  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 17:52:20  [info] admin (::1) op.Login
+Sep 28 17:53:05  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=7
+Sep 28 17:53:18  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 17:53:42  [info] admin (::1) op.Login
+Sep 28 17:53:53  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=7
+Sep 28 17:57:20  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 18:01:46  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 18:06:47  [info] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument?name=Contrataciones de la alcaldía de San Francisco Menendez&folderid=32
+Sep 28 18:06:59  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Download.php?documentid=32&version=1
+Sep 28 18:07:14  [info] admin (::1) op.Login
+Sep 28 18:08:12  [info] admin (::1) op.AddSubFolder?name=Alcaldía Municipal de Ahuachapán&folderid=18
+Sep 28 18:10:19  [info] admin (::1) op.UsrMgr.php&action=adduser&login=OI_ALCAL_AHUAC
+Sep 28 18:10:47  [info] OI_ALCAL_AHUAC (::1) op.Login
+Sep 28 18:34:35  [info] OI_BCR (::1) op.Login
+Sep 28 19:39:28  [info] admin (::1) op.Login
+Sep 28 19:41:15  [info] OI_BCR (::1) op.Login
+Sep 28 19:41:49  [info] OI_BCR (::1) op.EditDocument?documentid=29
+Sep 28 22:22:57  [info] admin (::1) op.Login
+Sep 28 22:24:10  [info] admin (::1) op.WorkflowStatesMgr.php&action=addworkflowstate&name=Desclasificado por resolución del IAIP
+Sep 28 22:25:41  [info] admin (::1) op.WorkflowActionsMgr.php&action=editworkflowaction&workflowactionid=1
+Sep 28 22:26:03  [info] admin (::1) op.WorkflowActionsMgr.php&action=addworkflowaction&name=Desclasificar documento
+Sep 28 22:26:29  [info] admin (::1) op.AddTransitionToWorkflow?workflow=1&transition5
+Sep 28 22:30:43  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=4365af70714d2387529b3255683a66d2?userid=6
+Sep 28 22:33:03  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Banco Central de Reserva'
+Sep 28 22:33:23  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Banco Central de Reserva'
+Sep 28 22:33:29  [info] OI_BCR (::1) op.ResetSu
+Sep 28 22:33:36  [info] OI_BCR (::1) op.Login
+Sep 28 22:40:33  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=28&formtoken=699731fd914403ec4d59a9ffeda90d25
+Sep 28 23:28:15  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Banco Central de Reserva'
+Sep 28 23:32:20  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Banco Central de Reserva'
+Sep 28 23:32:40  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Banco Central de Reserva'
+Sep 28 23:33:03  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Banco Central de Reserva'
+Sep 28 23:33:33  [info] OI_BCR (::1) op.AddDocument?name=Documentos de adopción del Proyecto de Modernización&folderid=13
+Sep 28 23:34:00  [info] admin (::1) op.Login
+Sep 28 23:34:34  [info] admin (::1) op.TriggerWorkflow?documentid=33&version1
+Sep 28 23:35:35  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=
+Sep 28 23:35:42  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=
+Sep 28 23:36:43  [info] OI_BCR (::1) op.Login
+Sep 28 23:44:05  [info] admin (::1) op.Login
+Sep 28 23:44:30  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 23:49:33  [info] OI_BCR (::1) op.Login
+Sep 28 23:49:59  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 23:50:24  [info] admin (::1) op.Login
+Sep 28 23:50:34  [info] admin (::1) op.TriggerWorkflow?documentid=32&version1
+Sep 28 23:50:39  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Sep 28 23:51:34  [info] OI_SAN_FRAN_MENENDEZ (::1) op.EditDocument?documentid=32
+Sep 28 23:52:48  [info] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument?name=aaa&folderid=32
+Sep 28 23:55:54  [info] admin (::1) op.Login
+Sep 28 23:56:15  [info] admin (::1) op.RemoveTransitionFromWorkflow?workflow=1&transition5
+Sep 28 23:56:51  [info] admin (::1) op.AddTransitionToWorkflow?workflow=1&transition6
+Sep 28 23:57:41  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=
+Sep 28 23:57:44  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=
+Sep 28 23:57:50  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=
+Sep 28 23:58:19  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=
+Sep 28 23:58:24  [info] admin (::1) op.WorkflowStatesMgr.php&action=editworkflowstate&workflowstateid=

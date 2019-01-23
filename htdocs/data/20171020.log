@@ -1,0 +1,24 @@
+Oct 20 00:58:34  [info] admin (::1) op.Login
+Oct 20 19:54:37  [info] admin (::1) op.Login
+Oct 20 19:54:42  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=a4a8893de58d5aa278d446d7108b2a42?userid=6
+Oct 20 22:42:05  [info] OI_BCR (::1) op.ResetSu
+Oct 20 22:42:09  [info] admin (::1) op.SubstituteUser.php?userid=4&formtoken=a4a8893de58d5aa278d446d7108b2a42?userid=4
+Oct 20 22:53:38  [info] OI_MOP (::1) op.ViewOnline.php?documentid=53&version=1
+Oct 20 22:54:39  [info] OI_MOP (::1) op.ResetSu
+Oct 20 22:54:47  [info] OI_BCR (::1) op.Login
+Oct 20 22:55:38  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 20 22:55:53  [info] OI_ALCAL_AHUAC (::1) op.EditDocument?documentid=50
+Oct 20 22:56:09  [info] OI_ALCAL_AHUAC (::1) op.EditDocument?documentid=50
+Oct 20 22:56:31  [info] OI_ALCAL_AHUAC (::1) op.EditDocument?documentid=50
+Oct 20 22:56:47  [info] OI_ALCAL_AHUAC (::1) op.Ajax.php?command=deletedocument&id=50&formtoken=cfdfe31ad64a50f7d25c9e4fce4a78cd
+Oct 20 22:57:05  [info] OI_ALCAL_AHUAC (::1) op.AddDocument?name=Caquita&folderid=33
+Oct 20 22:57:41  [info] OI_BCR (::1) op.Login
+Oct 20 23:01:52  [info] OI_BCR (::1) op.Login
+Oct 20 23:01:58  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login
+Oct 20 23:02:13  [info] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument?name=Acta inexistencia&folderid=32
+Oct 20 23:04:05  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Ajax.php?command=deletedocument&id=65&formtoken=f3483a3ae391224f9668dad17f485d8c
+Oct 20 23:04:22  [error] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Alcaldía Municipal de Villa de San Francisco Menéndez'
+Oct 20 23:04:33  [info] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument?name=Acta inexistencia hola&folderid=32
+Oct 20 23:06:14  [info] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument?name=Doc1&folderid=32
+Oct 20 23:12:03  [info] OI_SAN_FRAN_MENENDEZ (::1) op.AddDocument?name=rti&folderid=32
+Oct 20 23:54:46  [info] admin (::1) op.Login

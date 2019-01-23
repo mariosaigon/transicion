@@ -1,0 +1,17 @@
+Oct 04 12:15:39  [info] admin (190.86.206.89) op.Login
+Oct 04 12:22:05  [info] admin (190.86.206.89) op.SubstituteUser.php?userid=16&formtoken=652b67f1bbd679739f3d3c7e6315f093?userid=16
+Oct 04 12:22:55  [info] oficial_csj (190.86.206.89) op.ResetSu
+Oct 04 12:23:54  [info] admin (190.86.206.89) op.SubstituteUser.php?userid=16&formtoken=652b67f1bbd679739f3d3c7e6315f093?userid=16
+Oct 04 12:24:05  [info] oficial_csj (190.86.206.89) op.ResetSu
+Oct 04 12:24:12  [info] admin (190.86.206.89) op.Login
+Oct 04 12:24:19  [info] guest (190.86.206.89) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Oct 04 12:25:22  [info] admin (190.86.206.89) op.Login
+Oct 04 12:25:30  [info] admin (190.86.206.89) op.SubstituteUser.php?userid=16&formtoken=c0bf09dbf943afc7fa1570357fb5a256?userid=16
+Oct 04 12:26:30  [info] admin (190.86.206.89) op.Login
+Oct 04 12:28:34  [info] oficial_csj (190.86.206.89) op.ResetSu
+Oct 04 12:30:21  [info] admin (190.86.206.89) op.EditFolder?folderid=9
+Oct 04 12:31:44  [info] admin (190.86.206.89) op.SubstituteUser.php?userid=16&formtoken=c0bf09dbf943afc7fa1570357fb5a256?userid=16
+Oct 04 12:32:26  [info] oficial_csj (190.86.206.89) op.ResetSu
+Oct 04 12:32:53  [info] guest (190.86.206.89) out.ViewFolder.php%3Ffolderid%3D1%26showtree%3D1
+Oct 04 12:33:43  [info] admin (190.86.206.89) op.Login
+Oct 04 12:40:22  [info] admin (190.86.206.89) op.Login

@@ -1,0 +1,12 @@
+Oct 01 17:15:14  [info] admin (::1) op.Login
+Oct 01 17:15:40  [info] admin (::1) op.Login
+Oct 01 18:10:35  [info] admin (::1) op.EditFolder?folderid=31
+Oct 01 19:05:26  [info] admin (::1) op.Login
+Oct 01 19:06:01  [info] admin (::1) op.AddDocument?name=caca&folderid=33
+Oct 01 19:22:32  [info] admin (::1) op.AddSubFolder?name=Alcaldía Municipal de Apaneca&folderid=18
+Oct 01 19:22:55  [info] admin (::1) op.AddDocument?name=acta apaneca&folderid=36
+Oct 01 19:24:48  [error] admin (::1) op.AddDocument UI::exitError error=Valores mínimos del atributo pagetitle=Carpeta 'Alcaldía Municipal de Apaneca'
+Oct 01 19:25:05  [error] admin (::1) op.AddDocument UI::exitError error=Valores mínimos del atributo pagetitle=Carpeta 'Alcaldía Municipal de Apaneca'
+Oct 01 19:25:21  [info] admin (::1) op.AddDocument?name=dasdasdas&folderid=36
+Oct 01 19:26:18  [info] admin (::1) op.AddDocument?name=fsdhfghf&folderid=36
+Oct 01 19:35:59  [info] OI_SAN_FRAN_MENENDEZ (::1) op.Login

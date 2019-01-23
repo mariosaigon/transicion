@@ -1,0 +1,20 @@
+Oct 19 04:03:56  [info] OI_BCR (::1) op.Login
+Oct 19 05:08:51  [info] OI_BCR (::1) op.AddDocument?name=toci&folderid=13
+Oct 19 05:14:04  [info] OI_BCR (::1) op.Login
+Oct 19 05:15:00  [info] OI_BCR (::1) op.AddDocument?name=holi&folderid=13
+Oct 19 05:16:20  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=62&formtoken=691398fbae055f8c937a2772b3c437c3
+Oct 19 05:17:11  [info] OI_BCR (::1) op.AddDocument?name=TOCI2&folderid=13
+Oct 19 05:18:05  [info] admin (::1) op.Login
+Oct 19 05:18:58  [info] admin (::1) op.AddEvent?name=Abierta convocatoria&from=1508364000&to=1509577199
+Oct 19 05:19:10  [info] OI_BCR (::1) op.Login
+Oct 19 05:30:58  [info] admin (::1) op.Login
+Oct 19 05:31:41  [info] OI_BCR (::1) op.Login
+Oct 19 05:34:21  [info] admin (::1) op.Login
+Oct 19 05:36:27  [error] admin (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Directorio central'
+Oct 19 05:36:40  [error] admin (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Directorio central'
+Oct 19 05:36:51  [error] admin (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Directorio central'
+Oct 19 05:37:10  [error] admin (::1) op.AddDocument UI::exitError error=Ha ocurrido un error pagetitle=Carpeta 'Directorio central'
+Oct 19 05:37:22  [info] admin (::1) op.AddDocument?name=dd&folderid=1
+Oct 19 05:37:26  [info] admin (::1) op.Ajax.php?command=deletedocument&id=67&formtoken=44939b8c6ea30c52e12936d245a4797b
+Oct 19 05:37:44  [info] admin (::1) op.AddDocument?name=Fichaje- TEG.xlsx&folderid=1
+Oct 19 05:37:54  [info] admin (::1) op.Ajax.php?command=deletedocument&id=68&formtoken=44939b8c6ea30c52e12936d245a4797b

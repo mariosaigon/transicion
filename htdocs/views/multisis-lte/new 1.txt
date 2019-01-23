@@ -1,0 +1,115 @@
+bitacora archivos cambiados indice de reserva
+ 1)     views/multis-lte/class.Bootstrap.php: 
+   
+ 
+
+ 	if($folder->getAccessMode($user) >= M_READWRITE) 
+		{
+			$nombre_folder=$folder->getName();
+			if(strcmp("Actas de inexistencia",$nombre_folder)==0)
+				
+				{
+					//echo "pene";
+					$txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a id=\"add-acta-inexistencia\" type=\"button\" class=\"btn btn-warning btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("add_acta_inexistencia")."\"><i class=\"fa fa-plus\"></i> <i class=\"fa fa-file\"></i></a> </li>";
+				}
+				if(strcmp("Declaratorias de reserva",$nombre_folder)==0)
+					
+					{
+						$txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a id=\"add-document\" type=\"button\" class=\"btn btn-warning btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("add_document")."\"><i class=\"fa fa-plus\"></i> <i class=\"fa fa-file\"></i></a> </li>";
+					}
+			
+            
+			
+			$txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a id=\"add-folder\" type=\"button\" class=\"btn btn-success btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("add_subfolder")."\"><i class=\"fa fa-plus\"></i> <i class=\"fa fa-folder\"></i></a></li>";
+				
+				//$txtpath .= "<li><a href=\"/out/out.ViewDocument.php?documentid=".$document->getId()."\">".htmlspecialchars($document->getName())."</a></li>";
+		}
+ Esto lo que hace es detectar si estoy en la carpeta "Actas de inexistencia" mostrar un botoncito amarillo que permite subir actas de inexistencia, idem con declaratorias
+ 
+ En esta misma línea, para que yo al añadir un botón nuevo pueda tener el efecto de desplegar el formulario de subida de archivo, debo asignarle un id al botón, ejemplo id=\"add-acta-inexistencia
+   este id me servirá de referencia en el archivo /views/multis-lte/class.ViewFolder.php; en la parte del Javascript (alrededor de la línea 200) debo añadir una función que me muestre
+   el formulario oculto si presione el botón con ese id, por ejemplo:
+   $("#add-acta-inexistencia").on("click", function()
+  {
+	   alert("add pene!!!!!!!!!!!!!!");
+ 		  $("#div-add-pene").show('slow');
+  });
+  
+  el div-add-pene que sale está en el mismo fichero ViewFolder.php, a la hora del bloque de código de añadir un documento (o añadir declaratoria de inexistencia , que vendría a ser una copia
+  de ese cacho de código); en la línea 
+  echo "<div class=\"col-md-12 div-hidden\" id=\"div-add-pene\">";
+  
+ se está diciendo que una sección (div) oculta con id div-add-pene se mostrará cuando add-acta-inexistencia se active en javascript.
+ 
+ 2)     views/multis-lte/class.ViewFolder.php: a partir de linea 396 se hace la parte de crear un nuevo documento; es decir, cuando le doy al botón "Añadir documento", los campos que se me despliegan
+ 3)  views/multis-lte/class.ViewFolder.php: Linea 386 cambia el título de la caja desplegable cuando se da click en "añadir documetno"
+ 4)  \languages\es_ES/lang.inc: este fichero tiene las traducciones, ejemplo: 'add_document' => 'Añadir documento'; (por ejemplo cambiar el archivo lang.inc de en_GB para tener los cambios si se elige idioma inglés
+ 5) /views/multis-lte/class.Search.php
+ 6)/out/out.Search.php:
+ 
+ 
+									 //*************************************************************************hago MI comprobación custom de si la búsqueda está restringida entre dos fechas de resolución *******************************************************************************************************************
+					if (isset($_GET["quieroRango"]) && $_GET["quieroRango"]!=null) 
+					{
+						//echo "out.Search: marcado la casilla QUIERO_RANGO ";
+						$quiero_buscar_rango = true;
+					} else
+						{
+							//echo "out.Search: NO SE HA marcado la casilla QUIERO_RANGO ";
+						$quiero_buscar_rango = false;
+					}
+					//comprobar fecha del rango INICIAL
+					$fecha_inicial=0;
+					$fecha_final=0;
+					if(isset($_GET["fechaInicio"])) 
+					{
+						//echo "definido el atributo fechaINicio";
+						$tmp = explode("-", $_GET["fechaInicio"]);
+						$fecha_inicial = array('year'=>(int)$tmp[0], 'month'=>(int)$tmp[1], 'day'=>(int)$tmp[2], 'hour'=>0, 'minute'=>0, 'second'=>0);
+					} 
+					else 
+					{
+						if(isset($_GET["createstartyear"]))
+							$fecha_inicial = array('year'=>$_GET["createstartyear"], 'month'=>$_GET["createstartmonth"], 'day'=>$_GET["createstartday"], 'hour'=>0, 'minute'=>0, 'second'=>0);
+					}
+					if ($fecha_inicial && !checkdate($fecha_inicial['month'], $fecha_inicial['day'], $fecha_inicial['year'])) 
+					{
+						UI::exitError(getMLText("search"),getMLText("invalid_create_date_end"));
+					}
+					//fecha del rango FINAL
+					if(isset($_GET["fechaFin"])) 
+					{
+						//echo "definido el atributo fecha Final";
+						$tmp = explode("-", $_GET["fechaFin"]);
+						$fecha_final = array('year'=>(int)$tmp[0], 'month'=>(int)$tmp[1], 'day'=>(int)$tmp[2], 'hour'=>23, 'minute'=>59, 'second'=>59);
+					} else 
+					{
+						if(isset($_GET["createendyear"]))
+							$fecha_final = array('year'=>$_GET["createendyear"], 'month'=>$_GET["createendmonth"], 'day'=>$_GET["createendday"], 'hour'=>23, 'minute'=>59, 'second'=>59);
+					}
+					if ($fecha_final && !checkdate($fecha_final['month'], $fecha_final['day'], $fecha_final['year'])) 
+					{
+						UI::exitError(getMLText("search"),getMLText("invalid_create_date_end"));
+					}
+					
+					
+					y esta linea:
+					$resArr = $dms->search($query, 0, 0 /*$limit, ($pageNumber-1)*$limit*/, $mode, $searchin, $startFolder, $owner, $status, $creationdate ? $startdate : array(), $creationdate ? $stopdate : array(), array(), array(), $categories, $attributes, $resultmode, $expirationdate ? $expstartdate : array(), $expirationdate ? $expstopdate : array(), $fecha_inicial, $fecha_final, $quiero_buscar_rango);
+					
+					
+	7) \lib\SeedDMS\Core/inc.ClassDMS.php (function search entera)
+	
+	
+	8) out.viewfolder.php aqui controlo con $miid quienes NO pueden ver el directorio central (aquellos con id distinto de 1)
+	
+	*C:\xampp\htdocs\views\multisis-lte/bootstrap.php: fa-3x para hacer más grandes los iconos "font awesome"
+	
+*para modificar el core (sobre todo funcion search) modificar el fichero /lib/Core/inc.ClassDMS.php NO /lib/SeedDMS/Core/inc.ClassDMS.php
+
+*/styles/multis-lte/custom.css me permite modificar cosas como: colores de botones,
+yo la usè para aumentar el Breadcrumb (el espacio donde va el nombre de la carpeta y los 4 botoncitos de añadir acta, etc)
+*class.Bootstrap.php
+
+
+Para error de no poder ejectuar inline Scripts (EstadisticasDepartamentales.php) añadir a .htaccess
+Header set Content-Security-Policy "allow 'self'; media-src *; img-src *; script-src 'self' 'unsafe-inline' https://ajax.googleapis.com www.google-analytics.com; style-src 'self' 'unsafe-inline';"

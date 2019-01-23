@@ -1,0 +1,37 @@
+Sep 26 00:12:44  [info] OI_MOP (::1) op.ResetSu
+Sep 26 00:22:52  [info] OI_BCR (::1) op.Login
+Sep 26 00:30:38  [info] admin (::1) op.Login
+Sep 26 00:35:09  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=6
+Sep 26 00:35:41  [info] admin (::1) op.GroupMgr?groupid=2&action=removegroup
+Sep 26 00:36:07  [info] admin (::1) op.GroupMgr&action=addgroup&name=Entes obligados no municipales
+Sep 26 00:36:29  [info] admin (::1) op.GroupMgr&action=addgroup&name=Alcaldías municipales
+Sep 26 00:36:46  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=6
+Sep 26 00:37:01  [info] admin (::1) op.SubstituteUser.php?userid=6&formtoken=df3637a3fa18f10a647c0292bd7ff13d?userid=6
+Sep 26 00:39:01  [info] Flor Idania Romero de Fernandez (::1) op.ResetSu
+Sep 26 00:41:25  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Sep 26 00:41:32  [info] OI_MOP (::1) op.Login
+Sep 26 00:41:54  [info] OI_MOP (::1) op.EditDocument?documentid=24
+Sep 26 00:42:56  [error] OI_MOP (::1) op.UpdateDocument UI::exitError error=Envío (Upload) fallido. Por favor contacte con el Administrador. pagetitle=Documento 'DOCMOP'
+Sep 26 00:43:10  [info] OI_MOP (::1) op.UpdateDocument?documentid=24
+Sep 26 00:43:38  [info] admin (::1) op.Login
+Sep 26 00:44:00  [info] admin (::1) op.TriggerWorkflow?documentid=24&version3
+Sep 26 00:59:55  [info] OI_RREE (::1) op.Login
+Sep 26 01:00:38  [info] OI_RREE (::1) op.AddDocument?name=PARA VER&folderid=8
+Sep 26 01:00:46  [info] admin (::1) op.Login
+Sep 26 01:02:17  [info] admin (::1) op.AddDocument?name=Sin título.png&folderid=1
+Sep 26 01:45:03  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Sep 26 01:45:07  [info] OI_MOP (::1) op.Login
+Sep 26 02:00:57  [info] admin (::1) op.Login
+Sep 26 02:02:20  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 26 02:02:42  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Sep 26 02:02:48  [info] OI_MOP (::1) op.Login
+Sep 26 02:02:55  [info] OI_MOP (::1) op.Login
+Sep 26 02:03:16  [info] OI_MOP (::1) op.Ajax.php?command=deletedocument&id=22&formtoken=9b4424f741c47df80828e27c45f9347e
+Sep 26 02:32:18  [info] OI_MOP (::1) op.AddDocument?name=ACTA_IN_MOP1&folderid=9
+Sep 26 02:32:42  [info] OI_MOP (::1) op.Login
+Sep 26 02:32:50  [info] admin (::1) op.Login
+Sep 26 02:33:25  [info] OI_MOP (::1) op.Login
+Sep 26 23:28:36  [info] OI_MOP (::1) op.Login
+Sep 26 23:55:57  [info] OI_MOP (::1) op.Login
+Sep 26 23:57:44  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Sep 26 23:57:50  [info] Flor Idania Romero de Fernandez (::1) op.Login

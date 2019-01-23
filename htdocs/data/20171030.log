@@ -1,0 +1,190 @@
+Oct 30 01:31:14  [info] admin (::1) op.Login
+Oct 30 01:38:47  [info] OI_BCR (::1) op.Login
+Oct 30 02:02:37  [info] admin (::1) op.Login
+Oct 30 02:03:03  [info] admin (::1) op.OverrideContentStatus?documentid=58
+Oct 30 02:03:10  [info] OI_BCR (::1) op.Login
+Oct 30 02:05:03  [info] admin (::1) op.Login
+Oct 30 02:05:15  [info] admin (::1) op.TriggerWorkflow?documentid=63&version1
+Oct 30 02:05:21  [info] OI_BCR (::1) op.Login
+Oct 30 02:06:54  [info] admin (::1) op.Login
+Oct 30 02:08:25  [info] OI_BCR (::1) op.Login
+Oct 30 02:11:27  [info] OI_BCR (::1) op.ViewOnline.php?documentid=63&version=1
+Oct 30 02:12:20  [error] OI_BCR (::1) op.EditAttributes UI::exitError error=El tipo de archivo subido no coincide con el existente en la versión actual pagetitle=Documento 'TOCI2'
+Oct 30 02:12:54  [error] OI_BCR (::1) op.EditAttributes UI::exitError error=El tipo de archivo subido no coincide con el existente en la versión actual pagetitle=Documento 'TOCI2'
+Oct 30 02:15:57  [error] OI_BCR (::1) op.UpdateDocument UI::exitError error=Envío (Upload) fallido. Por favor contacte con el Administrador. pagetitle=Documento 'TOCI2'
+Oct 30 02:16:09  [info] OI_BCR (::1) op.UpdateDocument?documentid=63
+Oct 30 02:16:21  [info] admin (::1) op.Login
+Oct 30 02:16:37  [info] admin (::1) op.TriggerWorkflow?documentid=63&version2
+Oct 30 02:20:01  [info] OI_BCR (::1) op.Login
+Oct 30 02:20:06  [info] OI_BCR (::1) op.ViewOnline.php?documentid=63&version=2
+Oct 30 02:20:35  [info] OI_BCR (::1) op.Download.php?documentid=69&version=1
+Oct 30 02:21:15  [info] admin (::1) op.Login
+Oct 30 02:21:39  [info] OI_BCR (::1) op.Login
+Oct 30 02:26:36  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Traducción: Solicitud inválida Token pagetitle=Carpeta 'Traducción: Solicitud inválida Token'
+Oct 30 02:26:53  [info] OI_BCR (::1) op.AddDocument?name=Prueba oct&folderid=13
+Oct 30 02:27:03  [info] admin (::1) op.Login
+Oct 30 02:27:23  [info] admin (::1) op.TriggerWorkflow?documentid=70&version1
+Oct 30 02:27:32  [info] OI_BCR (::1) op.Login
+Oct 30 02:28:10  [info] OI_BCR (::1) op.EditAttributes?documentid=70
+Oct 30 02:28:30  [info] admin (::1) op.Login
+Oct 30 02:29:07  [info] admin (::1) op.ViewOnline.php?documentid=70&version=1
+Oct 30 02:29:18  [info] admin (::1) op.TriggerWorkflow?documentid=70&version1
+Oct 30 02:30:23  [info] OI_BCR (::1) op.Login
+Oct 30 02:37:19  [info] OI_BCR (::1) op.ViewOnline.php?documentid=60&version=1
+Oct 30 02:37:28  [info] admin (::1) op.Login
+Oct 30 02:37:51  [info] admin (::1) op.TriggerWorkflow?documentid=69&version1
+Oct 30 02:38:23  [info] OI_BCR (::1) op.Login
+Oct 30 02:41:48  [info] OI_BCR (::1) op.RewindWorkflow?documentid=69&version1
+Oct 30 02:43:29  [info] admin (::1) op.Login
+Oct 30 02:44:33  [error] admin (::1) op.TriggerWorkflow UI::exitError error=Acceso denegado pagetitle=Documento 'dasdas'
+Oct 30 02:45:33  [info] OI_BCR (::1) op.Login
+Oct 30 02:49:26  [info] admin (::1) op.Login
+Oct 30 02:49:38  [info] OI_BCR (::1) op.Login
+Oct 30 02:52:34  [info] OI_BCR (::1) op.EditDocument?documentid=69
+Oct 30 02:53:32  [info] OI_BCR (::1) op.EditAttributes?documentid=69
+Oct 30 02:54:02  [info] admin (::1) op.Login
+Oct 30 02:54:24  [info] OI_BCR (::1) op.Login
+Oct 30 02:54:53  [info] OI_BCR (::1) op.EditDocument?documentid=69
+Oct 30 02:56:28  [info] admin (::1) op.Login
+Oct 30 02:56:56  [info] OI_BCR (::1) op.Login
+Oct 30 02:57:27  [info] OI_BCR (::1) op.AddDocument?name=Prueba nov&folderid=13
+Oct 30 02:57:44  [info] admin (::1) op.Login
+Oct 30 02:57:58  [info] OI_BCR (::1) op.Login
+Oct 30 02:58:13  [info] admin (::1) op.Login
+Oct 30 02:58:29  [info] admin (::1) op.TriggerWorkflow?documentid=71&version1
+Oct 30 02:58:41  [info] OI_BCR (::1) op.Login
+Oct 30 02:59:13  [info] OI_BCR (::1) op.EditAttributes?documentid=71
+Oct 30 02:59:36  [info] admin (::1) op.Login
+Oct 30 03:02:02  [info] admin (::1) op.WorkflowActionsMgr.php&action=addworkflowaction&name=Corregir
+Oct 30 03:02:38  [error] admin (::1) op.AddTransitionToWorkflow UI::exitError error=Falta usuario/grupo para transición pagetitle=**workflow_title**
+Oct 30 03:03:02  [info] OI_BCR (::1) op.Login
+Oct 30 03:03:30  [info] OI_BCR (::1) op.Login
+Oct 30 03:03:35  [info] admin (::1) op.Login
+Oct 30 03:04:16  [info] admin (::1) op.GroupMgr&action=addgroup&name=oficiales
+Oct 30 03:04:30  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=8
+Oct 30 03:04:40  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=6
+Oct 30 03:04:51  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=4
+Oct 30 03:05:00  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=5
+Oct 30 03:05:08  [info] admin (::1) op.UsrMgr.php&action=edituser&userid=7
+Oct 30 03:05:37  [info] admin (::1) op.AddTransitionToWorkflow?workflow=1&transition16
+Oct 30 03:06:59  [info] OI_BCR (::1) op.Login
+Oct 30 03:07:57  [info] OI_BCR (::1) op.EditAttributes?documentid=71
+Oct 30 03:08:14  [info] OI_BCR (::1) op.TriggerWorkflow?documentid=71&version1
+Oct 30 03:08:49  [info] admin (::1) op.Login
+Oct 30 03:10:42  [info] OI_BCR (::1) op.Login
+Oct 30 03:11:18  [info] admin (::1) op.Login
+Oct 30 03:13:58  [info] admin (::1) op.Login
+Oct 30 03:14:04  [info] OI_BCR (::1) op.Login
+Oct 30 03:14:52  [info] OI_BCR (::1) op.TriggerWorkflow?documentid=69&version1
+Oct 30 03:15:16  [info] admin (::1) op.Login
+Oct 30 03:20:00  [info] OI_MOP (::1) op.Login
+Oct 30 03:20:06  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 03:20:26  [info] admin (::1) op.Login
+Oct 30 03:20:44  [info] admin (::1) op.TriggerWorkflow?documentid=64&version1
+Oct 30 03:21:27  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 03:22:05  [info] OI_ALCAL_AHUAC (::1) op.EditAttributes?documentid=64
+Oct 30 03:22:21  [info] OI_ALCAL_AHUAC (::1) op.TriggerWorkflow?documentid=64&version1
+Oct 30 03:22:48  [info] admin (::1) op.Login
+Oct 30 03:23:31  [info] admin (::1) op.RemoveTransitionFromWorkflow?workflow=1&transition16
+Oct 30 03:24:26  [error] admin (::1) op.AddTransitionToWorkflow UI::exitError error=Estado inicial y final son iguales pagetitle=**workflow_title**
+Oct 30 03:24:43  [info] admin (::1) op.AddTransitionToWorkflow?workflow=1&transition17
+Oct 30 03:26:30  [info] admin (::1) op.RemoveTransitionFromWorkflow?workflow=1&transition17
+Oct 30 03:26:59  [info] admin (::1) op.AddTransitionToWorkflow?workflow=1&transition18
+Oct 30 03:27:27  [info] admin (::1) op.RemoveTransitionFromWorkflow?workflow=1&transition18
+Oct 30 03:27:41  [info] admin (::1) op.TriggerWorkflow?documentid=71&version1
+Oct 30 03:27:52  [info] admin (::1) op.TriggerWorkflow?documentid=69&version1
+Oct 30 03:28:16  [info] OI_BCR (::1) op.Login
+Oct 30 03:28:34  [info] OI_BCR (::1) op.AddDocument?name=Esta es una prueba&folderid=13
+Oct 30 03:28:42  [info] admin (::1) op.Login
+Oct 30 03:30:06  [info] admin (::1) op.TriggerWorkflow?documentid=72&version1
+Oct 30 03:30:23  [info] OI_BCR (::1) op.Login
+Oct 30 03:31:32  [info] OI_BCR (::1) op.EditAttributes?documentid=72
+Oct 30 03:34:19  [info] admin (::1) op.Login
+Oct 30 03:37:48  [info] admin (::1) op.TriggerWorkflow?documentid=72&version1
+Oct 30 03:37:53  [info] OI_BCR (::1) op.Login
+Oct 30 03:51:03  [info] admin (::1) op.Login
+Oct 30 03:51:20  [info] OI_BCR (::1) op.Login
+Oct 30 03:51:58  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Subiendo un fichero vacío. -Subida cancelada. pagetitle=Carpeta 'Banco Central de Reserva'
+Oct 30 03:52:15  [info] OI_BCR (::1) op.AddDocument?name=va a ser que si&folderid=13
+Oct 30 03:52:24  [info] admin (::1) op.Login
+Oct 30 03:52:39  [info] admin (::1) op.TriggerWorkflow?documentid=73&version1
+Oct 30 03:52:57  [info] OI_BCR (::1) op.Login
+Oct 30 03:53:13  [info] OI_BCR (::1) op.RewindWorkflow?documentid=73&version1
+Oct 30 03:53:43  [info] admin (::1) op.Login
+Oct 30 03:53:58  [info] admin (::1) op.TriggerWorkflow?documentid=73&version1
+Oct 30 03:54:11  [info] OI_BCR (::1) op.Login
+Oct 30 04:03:26  [info] OI_BCR (::1) op.RewindWorkflow?documentid=73&version1
+Oct 30 04:03:43  [info] admin (::1) op.Login
+Oct 30 04:03:55  [info] admin (::1) op.TriggerWorkflow?documentid=73&version1
+Oct 30 04:04:01  [info] OI_BCR (::1) op.Login
+Oct 30 04:04:51  [info] OI_BCR (::1) op.ViewOnline.php?documentid=73&version=1
+Oct 30 04:05:04  [error] OI_BCR (::1) op.EditAttributes UI::exitError error=El tipo de archivo subido no coincide con el existente en la versión actual pagetitle=Documento 'va a ser que si'
+Oct 30 04:05:09  [error] OI_BCR (::1) op.EditAttributes UI::exitError error=El tipo de archivo subido no coincide con el existente en la versión actual pagetitle=Documento 'va a ser que si'
+Oct 30 04:05:26  [info] OI_BCR (::1) op.EditAttributes?documentid=73
+Oct 30 04:05:38  [info] OI_BCR (::1) op.ViewOnline.php?documentid=73&version=1
+Oct 30 04:05:49  [info] OI_BCR (::1) op.RewindWorkflow?documentid=73&version1
+Oct 30 04:05:57  [info] admin (::1) op.Login
+Oct 30 04:06:11  [info] admin (::1) op.ViewOnline.php?documentid=73&version=1
+Oct 30 04:06:22  [info] admin (::1) op.TriggerWorkflow?documentid=73&version1
+Oct 30 04:13:21  [info] admin (::1) op.TriggerWorkflow?documentid=68&version1
+Oct 30 04:13:33  [info] admin (::1) op.ClearCache
+Oct 30 04:16:41  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 04:17:03  [info] admin (::1) op.Login
+Oct 30 04:17:28  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 04:17:32  [info] OI_ALCAL_AHUAC (::1) op.Ajax.php?command=deletedocument&id=64&formtoken=4cdd640fad4a817b9a5580e3a371606c
+Oct 30 04:17:50  [info] admin (::1) op.Login
+Oct 30 04:18:04  [info] admin (::1) op.TriggerWorkflow?documentid=51&version1
+Oct 30 04:18:23  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 04:19:28  [info] OI_ALCAL_AHUAC (::1) op.RewindWorkflow?documentid=51&version1
+Oct 30 04:41:44  [info] OI_ALCAL_AHUAC (::1) op.EditDocument?documentid=51
+Oct 30 04:43:49  [info] admin (::1) op.Login
+Oct 30 04:44:08  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 04:45:46  [info] admin (::1) op.Login
+Oct 30 04:47:53  [info] admin (::1) op.EditDocument?documentid=51
+Oct 30 04:48:03  [info] OI_ALCAL_AHUAC (::1) op.Login
+Oct 30 04:48:15  [info] OI_ALCAL_AHUAC (::1) op.EditDocument?documentid=51
+Oct 30 04:48:45  [info] OI_BCR (::1) op.Login
+Oct 30 07:02:10  [info] OI_BCR (::1) op.EditDocument?documentid=73
+Oct 30 07:04:14  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=73&formtoken=9f3dd4971cdff477236f430eaf7eafc9
+Oct 30 07:04:29  [info] OI_BCR (::1) op.AddDocument?name=va a ser que si 2&folderid=13
+Oct 30 07:04:50  [info] OI_BCR (::1) op.EditDocument?documentid=74
+Oct 30 07:24:53  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=74&formtoken=9f3dd4971cdff477236f430eaf7eafc9
+Oct 30 07:25:08  [info] OI_BCR (::1) op.AddDocument?name=va a ser que si 3&folderid=13
+Oct 30 07:25:20  [info] OI_BCR (::1) op.EditDocument?documentid=75
+Oct 30 07:26:11  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=75&formtoken=9f3dd4971cdff477236f430eaf7eafc9
+Oct 30 07:26:51  [info] OI_BCR (::1) op.AddDocument?name=es actica&folderid=13
+Oct 30 07:27:35  [info] OI_BCR (::1) op.EditDocument?documentid=76
+Oct 30 07:30:29  [info] OI_BCR (::1) op.Ajax.php?command=deletedocument&id=76&formtoken=9f3dd4971cdff477236f430eaf7eafc9
+Oct 30 07:30:46  [info] OI_BCR (::1) op.AddDocument?name=va a ser que si 4&folderid=13
+Oct 30 07:30:53  [info] OI_BCR (::1) op.EditDocument?documentid=77
+Oct 30 07:31:03  [info] OI_BCR (::1) op.EditDocument?documentid=77
+Oct 30 07:31:43  [error] OI_BCR (::1) op.AddDocument UI::exitError error=Traducción: Solicitud inválida Token pagetitle=Carpeta 'Traducción: Solicitud inválida Token'
+Oct 30 07:32:02  [info] OI_BCR (::1) op.AddDocument?name=holi&folderid=13
+Oct 30 07:33:45  [info] OI_BCR (::1) op.EditDocument?documentid=78
+Oct 30 07:34:00  [info] OI_BCR (::1) op.EditDocument?documentid=78
+Oct 30 07:36:45  [info] OI_BCR (::1) op.EditDocument?documentid=78
+Oct 30 15:49:28  [info] OI_BCR (::1) op.Login
+Oct 30 15:49:39  [info] admin (::1) op.Login
+Oct 30 11:45:55  [error] -- (190.62.1.121) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Oct 30 11:46:22  [error] -- (190.62.1.121) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Oct 30 11:49:18  [info] admin (190.62.1.121) op.Login
+Oct 30 13:26:58  [info] admin (190.62.1.121) op.Login
+Oct 30 13:27:28  [error] -- (190.62.1.121) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Oct 30 13:27:33  [info] admin (190.62.1.121) op.Login
+Oct 30 13:28:16  [info] OI_BCR (190.62.1.121) op.Login
+Oct 30 13:30:55  [error] -- (190.62.1.121) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Oct 30 13:33:53  [info] OI_BCR (190.62.1.121) op.Login
+Oct 30 13:35:43  [info] admin (190.62.1.121) op.Login
+Oct 30 13:37:16  [info] admin (190.62.1.121) op.SubstituteUser.php?userid=6&formtoken=fa7b81fc7a0cbffa311578710369e078?userid=6
+Oct 30 13:37:21  [error] OI_BCR (190.62.1.121) op.SubstituteUser.php?userid=5&formtoken=fa7b81fc7a0cbffa311578710369e078 UI::exitError error=Acceso denegado pagetitle=Administración
+Oct 30 13:37:27  [error] OI_BCR (190.62.1.121) op.SubstituteUser.php?userid=7&formtoken=fa7b81fc7a0cbffa311578710369e078 UI::exitError error=Acceso denegado pagetitle=Administración
+Oct 30 13:37:51  [info] OI_MOP (190.62.1.121) op.Login
+Oct 30 13:43:41  [info] admin (190.62.1.121) op.Login
+Oct 30 13:50:13  [info] admin (190.62.1.121) op.SubstituteUser.php?userid=7&formtoken=b040dceef49b501886f3891d1b94d30c?userid=7
+Oct 30 14:00:54  [info] OI_BCR (190.62.1.121) op.Login
+Oct 30 14:07:37  [info] admin (190.62.1.121) op.Login
+Oct 30 14:26:31  [info] admin (190.62.1.121) op.Login
+Oct 30 14:26:38  [info] admin (190.62.1.121) op.Login
+Oct 30 14:26:53  [info] admin (190.62.1.121) op.Login
+Oct 30 14:27:02  [info] OI_BCR (190.62.1.121) op.Login
+Oct 30 16:53:18  [info] admin (190.150.135.17) op.Login

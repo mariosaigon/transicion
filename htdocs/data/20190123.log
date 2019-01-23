@@ -1,0 +1,130 @@
+Jan 23 01:50:19  [info] admin (::1) op.Login
+Jan 23 01:52:39  [info] admin (::1) op.Ajax.php?command=deletefolder&id=37&formtoken=fcca93301f7f10d82a9fa529ba6ef3e3
+Jan 23 01:56:13  [info] admin (::1) op.AddSubFolder?name=1. Marco estratégico y normativo institucional&folderid=43
+Jan 23 02:04:55  [info] admin (::1) op.AddSubFolder?name=1.1.	Misión, visión, objetivos y valores institucionales&folderid=169
+Jan 23 02:05:13  [info] admin (::1) op.AddSubFolder?name=1.2.	Marco normativo y de competencias institucionales&folderid=169
+Jan 23 02:19:09  [info] admin (::1) op.AddSubFolder?name=2. Cumplimiento de objetivos y metas institucionales&folderid=43
+Jan 23 02:21:10  [info] admin (::1) op.AddSubFolder?name=2.1. Estado de cumplimiento del PEI &folderid=172
+Jan 23 02:21:16  [info] admin (::1) op.AddSubFolder?name=2.2. Estado de implementación de políticas, estrategias, planes u otros instrumentos importantes de política pública bajo responsabilidad de la institución&folderid=172
+Jan 23 02:21:42  [info] admin (::1) op.AddSubFolder?name=2.3. Ejecución de grandes proyectos o proyectos estratégicos &folderid=172
+Jan 23 02:22:03  [info] admin (::1) op.AddSubFolder?name=2.4. Estado de implementación del Plan Operativo Anual &folderid=172
+Jan 23 02:26:39  [info] admin (::1) op.AddSubFolder?name=Presupuestos aprobados en el quinquenio y ejecución presupuestaria&folderid=43
+Jan 23 02:26:48  [info] admin (::1) op.EditFolder?folderid=177
+Jan 23 02:27:03  [info] admin (::1) op.AddSubFolder?name=3.1. Informe de ejecución presupuestaria por año y por fuente de financiamiento. &folderid=177
+Jan 23 02:30:16  [info] admin (::1) op.AddSubFolder?name=Ejecución Presupuestaria de Egresos&folderid=178
+Jan 23 02:30:32  [info] admin (::1) op.AddSubFolder?name=Ejecución Presupuestaria de Ingresos&folderid=178
+Jan 23 02:30:53  [info] admin (::1) op.AddSubFolder?name=Refuerzos Presupuestarios&folderid=178
+Jan 23 02:31:25  [info] admin (::1) op.AddSubFolder?name=Inventario de activos.&folderid=177
+Jan 23 02:31:39  [info] admin (::1) op.EditFolder?folderid=182
+Jan 23 02:32:09  [info] admin (::1) op.AddSubFolder?name=3.3. Listado de libre gestión y licitaciones en proceso de adjudicación o finalización&folderid=177
+Jan 23 02:32:25  [info] admin (::1) op.AddSubFolder?name=3.4. Compromisos pendientes de pago&folderid=177
+Jan 23 02:32:43  [info] admin (::1) op.AddSubFolder?name=4. Organización interna&folderid=43
+Jan 23 02:38:26  [info] admin (::1) op.AddSubFolder?name=4.1. Organización institucional y antecedentes relevantes&folderid=185
+Jan 23 02:38:39  [info] admin (::1) op.AddSubFolder?name=4.2. Desglose de principales funciones de las diferentes unidades que componen la estructura de la institución&folderid=185
+Jan 23 02:38:48  [info] admin (::1) op.AddSubFolder?name=4.3. Personal que integra cada una de las estructuras de la institución&folderid=185
+Jan 23 02:39:02  [info] admin (::1) op.AddSubFolder?name=4.4. Nómina salarial detallada por unidad organizativa&folderid=185
+Jan 23 02:39:14  [info] admin (::1) op.AddSubFolder?name=4.5.	Listado de cargos que presentan declaración de probidad&folderid=185
+Jan 23 02:39:28  [info] admin (::1) op.AddSubFolder?name=4.6. Listado de nuevas contrataciones y salidas de personal realizados entre enero y mayo del año de cierre de gestión&folderid=185
+Jan 23 02:39:43  [info] admin (::1) op.AddSubFolder?name=4.7. Situación de prestaciones laborales colectivas adicionales y sindicatos&folderid=185
+Jan 23 02:39:57  [info] admin (::1) op.AddSubFolder?name=4.8. Listado de personas designadas en Juntas Directivas, Consejos de Administración o similares en otras instituciones&folderid=185
+Jan 23 02:40:08  [info] admin (::1) op.AddSubFolder?name=4.9. Listado de espacios y organismos internacionales en que participa la institución y listado de personas designadas en ellos&folderid=185
+Jan 23 02:40:21  [info] admin (::1) op.AddSubFolder?name=4.10. Evaluaciones de desempeño&folderid=185
+Jan 23 02:40:37  [info] admin (::1) op.AddSubFolder?name=4.11. Detalle de presencia territorial o internacional de la institución &folderid=185
+Jan 23 02:41:15  [info] admin (::1) op.AddSubFolder?name=5. Auditorías y juicios&folderid=43
+Jan 23 02:41:27  [info] admin (::1) op.AddSubFolder?name=5.1. Estado de las auditorías y juicios de cuentas de la Corte de Cuentas de la República&folderid=197
+Jan 23 02:43:32  [info] admin (::1) op.AddSubFolder?name= 5.2. Otras auditorias internas y externas&folderid=197
+Jan 23 02:43:42  [info] admin (::1) op.AddSubFolder?name=5.3. Detalle de juicios o arbitrajes en curso&folderid=197
+Jan 23 02:44:04  [info] admin (::1) op.AddSubFolder?name=6. Transparencia y rendición de cuentas&folderid=43
+Jan 23 02:44:18  [info] admin (::1) op.AddSubFolder?name=6.1. Listado de clasificación de información institucional &folderid=201
+Jan 23 02:44:45  [info] admin (::1) op.AddSubFolder?name=6.2. Inventario de solicitudes de información&folderid=201
+Jan 23 02:44:57  [info] admin (::1) op.AddSubFolder?name=6.3. Detalle de las rendiciones de cuentas realizadas&folderid=201
+Jan 23 02:45:12  [info] admin (::1) op.AddSubFolder?name=6.4. Mecanismos de participación ciudadana permanentes&folderid=201
+Jan 23 02:45:25  [info] admin (::1) op.AddSubFolder?name=.5. Detalle de misiones oficiales&folderid=201
+Jan 23 02:45:37  [info] admin (::1) op.EditFolder?folderid=206
+Jan 23 02:46:09  [info] admin (::1) op.AddSubFolder?name=7. Principales procesos estratégicos en marcha&folderid=43
+Jan 23 03:39:53  [info] admin (::1) op.Login
+Jan 23 03:41:58  [info] admin (::1) op.UsrMgr.php&action=adduser&login=usuario.anda
+Jan 23 03:42:16  [info] usuario.anda (::1) op.Login
+Jan 23 04:00:36  [error] -- (::1) op.Login UI::exitError error=Error de acceso. ID de usuario o contraseña incorrectos. pagetitle=Error de acceso
+Jan 23 04:00:44  [info] admin (::1) op.Login
+Jan 23 04:02:20  [info] admin (::1) op.Ajax.php?command=deletedocument&id=19&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:22  [info] admin (::1) op.Ajax.php?command=deletedocument&id=32&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:25  [info] admin (::1) op.Ajax.php?command=deletedocument&id=34&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:27  [info] admin (::1) op.Ajax.php?command=deletedocument&id=40&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:30  [info] admin (::1) op.Ajax.php?command=deletedocument&id=56&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:33  [info] admin (::1) op.Ajax.php?command=deletedocument&id=61&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:35  [info] admin (::1) op.Ajax.php?command=deletedocument&id=57&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:37  [info] admin (::1) op.Ajax.php?command=deletedocument&id=67&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:40  [info] admin (::1) op.Ajax.php?command=deletedocument&id=63&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:42  [info] admin (::1) op.Ajax.php?command=deletedocument&id=82&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:45  [info] admin (::1) op.Ajax.php?command=deletedocument&id=91&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:47  [info] admin (::1) op.Ajax.php?command=deletedocument&id=93&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:50  [info] admin (::1) op.Ajax.php?command=deletedocument&id=96&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:54  [info] admin (::1) op.Ajax.php?command=deletedocument&id=135&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:02:58  [info] admin (::1) op.Ajax.php?command=deletedocument&id=69&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:01  [info] admin (::1) op.Ajax.php?command=deletedocument&id=90&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:03  [info] admin (::1) op.Ajax.php?command=deletedocument&id=95&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:06  [info] admin (::1) op.Ajax.php?command=deletedocument&id=100&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:08  [info] admin (::1) op.Ajax.php?command=deletedocument&id=101&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:10  [info] admin (::1) op.Ajax.php?command=deletedocument&id=103&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:13  [info] admin (::1) op.Ajax.php?command=deletedocument&id=105&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:15  [info] admin (::1) op.Ajax.php?command=deletedocument&id=125&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:19  [info] admin (::1) op.Ajax.php?command=deletedocument&id=126&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:21  [info] admin (::1) op.Ajax.php?command=deletedocument&id=127&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:23  [info] admin (::1) op.Ajax.php?command=deletedocument&id=128&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:26  [info] admin (::1) op.Ajax.php?command=deletedocument&id=129&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:35  [info] admin (::1) op.Ajax.php?command=deletedocument&id=130&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:37  [info] admin (::1) op.Ajax.php?command=deletedocument&id=133&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:40  [info] admin (::1) op.Ajax.php?command=deletedocument&id=131&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:03:43  [info] admin (::1) op.Ajax.php?command=deletedocument&id=134&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:05  [info] admin (::1) op.Ajax.php?command=deletedocument&id=97&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:08  [info] admin (::1) op.Ajax.php?command=deletedocument&id=141&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:10  [info] admin (::1) op.Ajax.php?command=deletedocument&id=152&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:20  [info] admin (::1) op.Ajax.php?command=deletedocument&id=143&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:44  [info] admin (::1) op.Ajax.php?command=deletedocument&id=136&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:47  [info] admin (::1) op.Ajax.php?command=deletedocument&id=137&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:49  [info] admin (::1) op.Ajax.php?command=deletedocument&id=142&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:52  [info] admin (::1) op.Ajax.php?command=deletedocument&id=147&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:55  [info] admin (::1) op.Ajax.php?command=deletedocument&id=148&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:04:58  [info] admin (::1) op.Ajax.php?command=deletedocument&id=153&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:00  [info] admin (::1) op.Ajax.php?command=deletedocument&id=149&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:03  [info] admin (::1) op.Ajax.php?command=deletedocument&id=146&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:05  [info] admin (::1) op.Ajax.php?command=deletedocument&id=150&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:08  [info] admin (::1) op.Ajax.php?command=deletedocument&id=151&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:11  [info] admin (::1) op.Ajax.php?command=deletedocument&id=154&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:27  [info] admin (::1) op.Ajax.php?command=deletedocument&id=51&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:31  [info] admin (::1) op.Ajax.php?command=deletedocument&id=58&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:34  [info] admin (::1) op.Ajax.php?command=deletedocument&id=68&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:37  [info] admin (::1) op.Ajax.php?command=deletedocument&id=124&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:40  [info] admin (::1) op.Ajax.php?command=deletedocument&id=53&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:42  [info] admin (::1) op.Ajax.php?command=deletedocument&id=132&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:45  [info] admin (::1) op.Ajax.php?command=deletedocument&id=66&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:05:48  [info] admin (::1) op.Ajax.php?command=deletedocument&id=156&formtoken=7e4b960862fd147f9dd9d63cde9d3198
+Jan 23 04:06:42  [info] usuario.anda (::1) op.Login
+Jan 23 04:17:17  [info] usuario.anda (::1) op.AddDocument?name=Marco estrategico de ANDA&folderid=170
+Jan 23 05:31:09  [info] admin (::1) op.Login
+Jan 23 05:34:53  [info] admin (::1) op.Login
+Jan 23 05:37:26  [info] admin (::1) op.ClearCache
+Jan 23 05:37:39  [info] admin (::1) op.Login
+Jan 23 05:38:10  [info] admin (::1) op.Login
+Jan 23 07:32:59  [info] admin (::1) op.Login
+Jan 23 07:38:27  [info] admin (::1) op.Login
+Jan 23 07:40:45  [info] admin (::1) op.Settings.php&action=savesettings
+Jan 23 07:41:44  [info] usuario.anda (::1) op.Login
+Jan 23 07:43:05  [info] admin (::1) op.Login
+Jan 23 07:44:52  [info] admin (::1) op.Login
+Jan 23 07:46:44  [info] usuario.anda (::1) op.Login
+Jan 23 07:58:11  [info] admin (::1) op.Login
+Jan 23 07:58:27  [info] usuario.anda (::1) op.Login
+Jan 23 08:29:21  [info] admin (::1) op.Login
+Jan 23 09:24:00  [info] usuario.anda (::1) op.Login
+Jan 23 09:26:57  [info] usuario.anda (::1) op.AddDocument?name=Juicios&folderid=200
+Jan 23 09:27:06  [info] usuario.anda (::1) op.Download.php?documentid=158&version=1
+Jan 23 10:00:53  [info] admin (::1) op.Login
+Jan 23 10:07:52  [info] usuario.anda (::1) op.Login
+Jan 23 10:21:14  [info] usuario.anda (::1) op.Login
+Jan 23 10:29:12  [info] usuario.anda (::1) op.AddDocument?name=MISION Y VISION ANDAdas&folderid=171
+Jan 23 10:29:59  [info] usuario.anda (::1) op.ViewOnline.php?documentid=159&version=1
+Jan 23 10:30:21  [info] usuario.anda (::1) op.AddFile?name=Anexo 1&documentid=159
+Jan 23 10:44:28  [info] usuario.anda (::1) op.Login
+Jan 23 10:46:07  [info] admin (::1) op.Login

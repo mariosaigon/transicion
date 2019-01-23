@@ -1,0 +1,17 @@
+Sep 23 00:01:20  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 23 00:02:45  [info] OI_BCR (::1) op.Login
+Sep 23 00:02:54  [info] OI_BCR (::1) op.Download.php?documentid=12&version=1
+Sep 23 00:03:03  [info] OI_BCR (::1) op.ViewOnline.php?documentid=12&version=1
+Sep 23 00:47:54  [info] admin (::1) op.Login
+Sep 23 00:54:08  [error] admin (::1) op.UsrMgr UI::exitError error=Sólo puede usar imágenes .jpg como imágenes de usuario pagetitle=Administración
+Sep 23 01:08:27  [info] admin (::1) op.ExtensionMgr
+Sep 23 01:13:29  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 23 01:13:41  [info] admin (::1) op.Login
+Sep 23 05:11:55  [info] admin (::1) op.Login
+Sep 23 05:19:15  [info] admin (127.0.0.1) op.Login
+Sep 23 05:38:09  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 23 05:41:12  [info] admin (::1) op.Settings.php&action=savesettings
+Sep 23 05:41:26  [info] admin (::1) op.TriggerWorkflow?documentid=14&version1
+Sep 23 05:43:46  [info] admin (::1) op.TriggerWorkflow?documentid=15&version1
+Sep 23 06:01:11  [info] admin (::1) op.Ajax.php?command=deletedocument&id=18&formtoken=b06d04cc242732a4941c98b95db58984
+Sep 23 19:10:45  [info] admin (::1) op.Login

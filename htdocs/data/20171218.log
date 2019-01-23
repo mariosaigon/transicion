@@ -1,0 +1,9 @@
+Dec 18 15:35:06  [info] OI_BCR (179.5.103.103) op.Login
+Dec 18 15:36:05  [info] OI_BCR (179.5.103.103) op.AddDocument?name=Documento a reservar&folderid=13
+Dec 18 15:37:31  [info] OI_BCR (179.5.103.103) op.Ajax.php?command=deletedocument&id=90&formtoken=68da9e95e922a9493e939cdc80024745
+Dec 18 15:37:50  [info] OI_BCR (179.5.103.103) op.EditDocument?documentid=89
+Dec 18 15:39:58  [info] OI_BCR (179.5.103.103) op.Ajax.php?command=deletedocument&id=91&formtoken=68da9e95e922a9493e939cdc80024745
+Dec 18 15:40:52  [info] OI_BCR (179.5.103.103) op.Login
+Dec 18 15:41:44  [error] OI_BCR (179.5.103.103) op.AddDocument UI::exitError error=Valores mínimos del atributo pagetitle=Carpeta 'Banco Central de Reserva'
+Dec 18 15:42:20  [info] OI_BCR (179.5.103.103) op.Login
+Dec 18 15:43:17  [info] OI_BCR (179.5.103.103) op.AddDocument?name=Documentos de cobros del ejercicio 2017&folderid=13

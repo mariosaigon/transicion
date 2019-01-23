@@ -1,0 +1,21 @@
+may 28 00:46:57  [info] oficial_csj (127.0.0.1) op.Login
+may 28 00:53:47  [info] admin (127.0.0.1) op.Login
+may 28 00:54:26  [info] oficial_csj (127.0.0.1) op.Login
+may 28 00:54:40  [info] oficial_mag (127.0.0.1) op.Login
+may 28 01:32:24  [info] admin (127.0.0.1) op.Login
+may 28 01:33:58  [info] oficial_mag (127.0.0.1) op.Login
+may 28 01:54:57  [error] oficial_mag (127.0.0.1) op.AddDocument UI::exitError error=Nombre de documento duplicado pagetitle=Carpeta 'Ministerio de Agricultura y Ganadería'
+may 28 01:55:14  [info] admin (127.0.0.1) op.Login
+may 28 01:56:10  [info] admin (127.0.0.1) op.Settings.php&action=savesettings
+may 28 01:56:23  [info] oficial_mag (127.0.0.1) op.Login
+may 28 02:07:38  [info] admin (127.0.0.1) op.Login
+may 28 02:09:37  [info] admin (127.0.0.1) op.Login
+may 28 02:09:59  [info] admin (127.0.0.1) op.Settings.php&action=savesettings
+may 28 02:11:48  [info] oficial_csj (127.0.0.1) op.Login
+may 28 02:14:43  [info] oficial_mag (127.0.0.1) op.Login
+may 28 03:30:23  [info] oficial_mag (127.0.0.1) op.AddDocument?name=Nuevos contratos 2&folderid=143
+may 28 10:09:03  [info] admin (127.0.0.1) op.Login
+may 28 10:09:14  [info] oficial_mag (127.0.0.1) op.Login
+may 28 12:08:02  [info] oficial_csj (127.0.0.1) op.Login
+may 28 12:15:51  [info] oficial_mag (127.0.0.1) op.Login
+may 28 12:22:30  [info] oficial_mag (127.0.0.1) op.AddDocument?name=Nuevos contratos&folderid=143

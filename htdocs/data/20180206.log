@@ -1,0 +1,11 @@
+Feb 06 17:05:07  [info] admin (::1) op.Login
+Feb 06 17:14:28  [info] OI_BCR (::1) op.Login
+Feb 06 17:15:21  [info] OI_BCR (::1) op.AddDocument?name=doucmento a reservar&folderid=13
+Feb 06 17:16:09  [info] admin (::1) op.Login
+Feb 06 17:16:27  [info] admin (::1) op.Download.php?documentid=102&version=1
+Feb 06 17:16:43  [info] admin (::1) op.TriggerWorkflow?documentid=102&version1
+Feb 06 17:16:50  [info] OI_BCR (::1) op.Login
+Feb 06 17:17:14  [info] admin (::1) op.Login
+Feb 06 17:17:51  [info] admin (::1) op.TriggerWorkflow?documentid=102&version1
+Feb 06 17:18:09  [info] OI_BCR (::1) op.Login
+Feb 06 17:19:00  [info] admin (::1) op.Login
