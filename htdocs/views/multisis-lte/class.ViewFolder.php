@@ -651,6 +651,11 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 		$this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/datatables/jquery.dataTables.min.js"></script>'."\n", 'js');
 		$this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/datatables/dataTables.bootstrap.min.js"></script>'."\n", 'js');
 		$this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/validate/jquery.validate.js"></script>'."\n", 'js');
+
+		$this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/tacometros/raphael.js"></script>'."\n", 'js');
+
+	    $this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/tacometros/justgage.js"></script>'."\n", 'js');
+
 		
 		echo $this->callHook('startPage');
 		if($user->isAdmin())
