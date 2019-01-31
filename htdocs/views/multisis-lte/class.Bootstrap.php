@@ -30,12 +30,13 @@ function obtenerParametro($string,$documento,$dms) //funcion que obtiene problem
 		
 	return $respuesta;
 }
+//modificado para que coloree de nivel 5 ()
 function esRaiz2($folderID,$dms) //analiza si los 7 folders principales tienen algo
 {
 	//echo "analizo folder ".$folderID;
 	$folder=$dms->getFolder($folderID);
 	$ruta=$folder->getPath();
-	if(count($ruta)==4)
+	if(count($ruta)==4 || count($ruta)==5 || count($ruta)==6)
 	{
 		return true;
 	}
@@ -46,6 +47,7 @@ function esRaiz2($folderID,$dms) //analiza si los 7 folders principales tienen a
 }
 function dameAvance2($folder,$user)
 {
+
     $totalLlenos=0; 
    		$ninos=$folder->countChildren($user,0);
    		$totalLlenos=$ninos['document_count'];
@@ -1287,17 +1289,11 @@ if($user->isAdmin())
 				//añadir doc
 				//PARA LE CASO DE TRANSICION: que se vea sólo en folder hojas.
 				//23 ENERO 2019
-				$esHoja = $folder->hasSubFolders();
-				//echo "esHoja: ".$esHoja ;
-				if($esHoja==FALSE)
-				{
-				$txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a id=\"add-document\" type=\"button\" class=\"btn bg-teal btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("add_document")."\"><i class=\"fa fa-plus fa-3x\"></i> <i class=\"fa fa-file fa-4x\"></i><br>Subir documento</a></li>";
-				}
+				
 			
 			}
 		
-			
-
+		
 				
 				//$txtpath .= "<li><a href=\"/out/out.ViewDocument.php?documentid=".$document->getId()."\">".htmlspecialchars($document->getName())."</a></li>";
 		}
@@ -3088,8 +3084,9 @@ $(document).ready( function() {
 			}*/
 			/////////
 
-			if($document->getAccessMode($user) >= M_ALL) {
-				$content .= '<a type="button" href="'.$this->params['settings']->_httpRoot.'out/out.DocumentAccess.php?documentid='.$docID.'&showtree=1" class="btn btn-success btn-sm access-folder-btn btn-action " rel="'.$docID.'" data-toggle="tooltip" data-placement="bottom" title="'.getMLText("edit_document_access").'"><i class="fa fa-user-times"></i></a>';
+			if($document->getAccessMode($user) >= M_ALL) 
+			{
+				//$content .= '<a type="button" href="'.$this->params['settings']->_httpRoot.'out/out.DocumentAccess.php?documentid='.$docID.'&showtree=1" class="btn btn-success btn-sm access-folder-btn btn-action " rel="'.$docID.'" data-toggle="tooltip" data-placement="bottom" title="'.getMLText("edit_document_access").'"><i class="fa fa-user-times"></i></a>';
 			}
 
 			if($document->getAccessMode($user) >= M_READWRITE) {
@@ -3126,17 +3123,98 @@ $(document).ready( function() {
 		$owner = $subFolder->getOwner();
 		$comment = $subFolder->getComment();
 		$bgcolor="";
+
 		if (esRaiz2($subFolder->getID(),$dms))
 		{
+			$totalf1=2;
+			$totalf2=4;
+			$totalf3=8;
+			$totalf4=11;
+			$totalf5=3;
+			$totalf6=5;
+			$totalf7=1;
+			
+				//regla 1: si un nivel 5 tiene un documento al menos, se considera lleno. Un nivel 4 debe tener en cuenta todos.
+			$ruta=$subFolder->getPath();
 			$avancito=dameAvance2($subFolder,$user);
-			if($avancito==0)
+			//echo "Ruta de ".$subFolder->getName()." es: ".count($ruta)." avance: ".$avancito;
+			if(count($ruta)==5 || count($ruta)==6)
 			{
-				$bgcolor="#ff5050";	
+				if($avancito==0) //rojo si no tener nada
+				{
+					$bgcolor="#ff5050";	
+				}
+				if($avancito>0) //verde si tiene al menos uno
+				{
+					$bgcolor="#ccffcc";	
+				}
 			}
-			if($avancito>0)
+			if(count($ruta)==4)
 			{
-				$bgcolor="#ffff80";	
+				if($avancito==0) //rojo si ninguo
+				{
+					$bgcolor="#ff5050";	
+				}
+				if($avancito>0)
+				{
+					$bgcolor="#ffff80";	 //amarillo si màs de uno
+				}
+				//para colorear verde biene el cálculo:
+				switch ($subFolder->getName()) 
+				{
+					case '1. Marco estratégico y normativo institucional':
+						if($avancito==$totalf1) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+					case '2. Cumplimiento de objetivos y metas institucionales':
+						if($avancito==$totalf2) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+
+					case '3. Presupuestos aprobados en el quinquenio y ejecución presupuestaria':
+						if($avancito==$totalf3) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+
+					case '4. Organización interna':
+						if($avancito==$totalf4) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+
+					case '5. Auditorías y juicios':
+						if($avancito==$totalf5) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+
+					case '6. Transparencia y rendición de cuentas':
+						if($avancito==$totalf6) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+					case '7. Principales procesos estratégicos en marcha':
+						if($avancito==$totalf7) //verde si tiene el total de su fase
+						{
+							$bgcolor="#ccffcc";	
+						}
+						break;
+					
+					default:
+						# code...
+						break;
+				}
 			}
+			
 			
 		}
 		if (strlen($comment) > 150) $comment = substr($comment, 0, 147) . "...";

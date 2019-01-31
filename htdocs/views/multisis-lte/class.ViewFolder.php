@@ -31,6 +31,91 @@ require_once("SeedDMS/Preview.php");
  *             2010-2012 Uwe Steinmann
  * @version    Release: @package_version@
  */
+function imprimirFormato($folder)
+{
+	//echo "a imprimir formato";
+	$ruta=$folder->getPath();
+	$nombre=$folder->getName();
+	$idExcel=0;
+	 $settings = new Settings();
+	 switch ($nombre) 
+	 {
+	 	case 'Ejecución Presupuestaria de Egresos':
+	 		$idExcel=7;
+	 		break;
+	    case 'Ejecución Presupuestaria de Ingresos':
+	 		$idExcel=8;
+	 		break;
+	 	case 'Refuerzos Presupuestarios':
+	 		$idExcel=9;
+	 		break;
+	 	case 'Ejecución de Proyectos de Cooperación':
+	 		$idExcel=10;
+	 		break;
+	 	case 'Ejecución de Proyectos de Cooperación':
+	 		$idExcel=10;
+	 		break;
+	 	case 'Ejecución de Proyectos de Cooperación':
+	 		$idExcel=10;
+	 		break;
+
+	 	case '3.2. Inventario de activos':
+	 		$idExcel=11;
+	 		break;
+	 	case '3.3. Listado de libre gestión y licitaciones en proceso de adjudicación o finalización':
+	 		$idExcel=12;
+	 		break;
+	 	case '3.4. Compromisos pendientes de pago':
+	 		$idExcel=13;
+	 		break;			 	
+	 	default:
+	 		# code...
+	 		break;
+	 }
+	$rutaFormato=$settings->_httpRoot."formatos/F".$idExcel.".xlsx";
+	$rutaFoto=$settings->_httpRoot."formatos/fotos/F".$idExcel.".JPG";
+			//echo "La ruta del formato quedó; ".$rutaFormato;
+	echo '<div class="small-box bg-aqua">
+            <div class="inner">
+              <h3>INDICACIÓN</h3>
+
+              <p>Tiene que subir un documento con el siguiente formato:</p>
+            </div>
+            <div class="icon">
+              <i class="ion ion-document"></i>
+            </div>';
+            echo "<button type=\"button\" class=\"btn btn-success btn-block\" data-toggle=\"modal\" data-target=\"#modal-info\">
+                Descargar formato <i class=\"fa fa-arrow-circle-right\"></i>
+              </button>
+          </div>";
+
+
+          echo ' <div class="modal modal-info fade" id="modal-info">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span></button>';
+                echo "<h4 class=\"modal-title\">Formato ".$idExcel."</h4>";
+             echo '</div>
+              <div class="modal-body">';
+              //IMPRIMO MENSAJITO Y FOTO
+                echo "<p>Por favor, descargue el formato correspondiente en el botón \"Descargar formato\" donde deberá completar un documento como éste:</p>";
+                echo "<img src=\"".$rutaFoto."\" class=\"img-fluid\" alt=\"Foto del formato a elaborar para la transición\">";
+
+                //////////
+              echo '</div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-outline ">Descargar formato</button>
+              </div>
+            </div>
+            <!-- /.modal-content -->
+          </div>
+          <!-- /.modal-dialog -->
+        </div>
+        <!-- /.modal -->';
+}
 function esRaiz($folder)
 {
 	$ruta=$folder->getPath();
@@ -559,7 +644,8 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 		$previewwidth = $this->params['previewWidthList'];
 		$timeout = $this->params['timeout'];
 		$folderid = $folder->getId();
-
+		$esRaizInsti=esRaiz($folder);
+		$estaVacio=vacio($folder,$user);
 		$baseServer = $this->params['baseServer'];
 		$this->htmlAddHeader('<link href="../styles/'.$this->theme.'/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet">'."\n", 'css');
 		$this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/datatables/jquery.dataTables.min.js"></script>'."\n", 'js');
@@ -618,34 +704,36 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 			$rubro=$r7['id'];
 			$array7[]=$rubro;
 		}
+		//IMPRIMIR el enlace al formato e indicaciones
+		//imprimirFormato($folder);
 
 
 
 		echo ' <div class="col-md-3 col-sm-6 col-xs-12"> </div>';	
-
-
 		echo ' <div class="col-md-3 col-sm-6 col-xs-12">';
-        echo ' <div class="alert alert-success alert-dismissible">
-                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                <h4><i class="icon fa fa-check"></i> INDICACIONES!</h4>';
-               echo "En esta sección deberá subir un documento que contenga lo siguiente:";
-               $rutaFoto=$baseServer."images/formato2.PNG";
+			$esHoja = $folder->hasSubFolders();
+				//echo "esHoja: ".$esHoja ;
+				if($esHoja==FALSE)
+				{
+					imprimirFormato($folder);  	
+				}
+          	
+        echo '</div>';
 
-           // <button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-default">
-           //      Launch Default Modal
-           //    </button>
-
-           echo "<img src=\"".$rutaFoto."\" alt=\"Contenido del documento\" height=\"150\" width=\"200\" data-toggle=\"modal\" data-target=\"#modal-default\" >";
-              echo "</div>";
-              
-        echo '</div>';	
-
-        echo '<div class="col-md-3 col-sm-6 col-xs-12">
-          <div class="info-box bg-red">
+        $esHoja = $folder->hasSubFolders();
+				//echo "esHoja: ".$esHoja ;
+				if($esHoja==FALSE)
+				{
+				echo "<a id=\"add-document\" type=\"button\" class=\"btn bg-navy btn-lg\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("add_document")."\"><i class=\"fa fa-plus fa-3x\"></i> <i class=\"fa fa-file fa-4x\"></i><br>Subir documento</a>";
+				}	
+				if($esRaizInsti && !$estaVacio)
+				{
+					echo '<div class="col-md-3 col-sm-6 col-xs-12">
+          <div class="info-box bg-yellow">
             <span class="info-box-icon"><i class="fa fa-warning"></i></span>
             <div class="info-box-content">';
-              echo "<span class=\"info-box-text\">Documentos faltantes para el informe de transición</span>";
-              echo "<span class=\"info-box-number\">".$conteo30."</span>";
+              echo "<span class=\"info-box-text\">REQUIEREN SU ATENCIÓN</span>";
+              echo "<span class=\"info-box-number\">Las siguientes carpetas del informe de transición de Gobierno:</span>";
 
               echo '<div class="progress">
                 <div class="progress-bar" style="width: 70%"></div>
@@ -659,6 +747,8 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
           </div>
           <!-- /.info-box -->
         </div>';
+				}
+        
 		}
 
 		if($user->isGuest())
@@ -1082,8 +1172,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 <?php
 		echo "</div>\n"; // End of row
 //////////////////////////77 TABLA DE ESTADO DE SUBIDA DE DOCUMENTOS //////////////
-		$esRaizInsti=esRaiz($folder);
-		$estaVacio=vacio($folder,$user);
+		
 			echo '<div class="row">';
 		if($esRaizInsti && !$estaVacio) //mostrar tabla si estoy en la "raiz" de una institución
 		{
