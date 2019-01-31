@@ -1273,8 +1273,8 @@ if($user->isAdmin())
 	$txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a id=\"add-folder\" type=\"button\" class=\"btn btn-success btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("add_subfolder")."\"><i class=\"fa fa-plus fa-3x\"></i> <i class=\"fa fa-folder fa-4x\"></i><br>Añadir subdirectorio</a> </a></li>";
 	$rutaCharts=$baseServer."out/out.Charts.php";
 	 $txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a href =\"".$rutaCharts. "\" id=\"proximas\" type=\"button\" class=\"btn bg-purple  btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\"".getMLText("Estadísticas")."\"><i class=\"fa fa-bar-chart fa-4x\"></i><br>Estadísticas</a>  </a></li>";
- $rutaLista=$baseServer."out/out.ListaTerminados.php";
-	 $txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a href =\"".$rutaLista. "\" id=\"proximas\" type=\"button\" class=\"btn bg-black btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\""."Instituciones que subieron toda la documentación para la transición"."\"><i class=\"fa fa-users fa-4x\"></i> <br>Oficiales que terminaron su índice</a> </a></li>";
+ $rutaLista=$baseServer."out/out.FiltroEntes.php";
+	 $txtpath .= "<li class=\"pull-right breadcrumb-btn\"><a href =\"".$rutaLista. "\" id=\"proximas\" type=\"button\" class=\"btn bg-black btn-sm\" data-toggle=\"tooltip\" data-placement=\"bottom\" title=\""."Instituciones que subieron toda la documentación para la transición"."\"><i class=\"fa fa-users fa-4x\"></i> <br>Avance en el informe por institución</a> </a></li>";
 
 }
 

@@ -72,46 +72,13 @@ function getDefaultUserFolder($id_usuario) //dado un id de usuario, me devuelve 
 	return $id_folder;
 }
 
-function contarDocumentos($tipo_documento,$folder,$orderby)
+function contarDocumentos($folder,$user)
 {
-	$contadorFinal=0;
-	 $stringDeclaratoriasReserva="Declaratorias de reserva";
-$stringActas="Actas de inexistencia";
-    // un departamento es un folder, cada subfolder será un municipio
-    //print "<p> Municipios del departamento de ".$departamento->getName()."</p>";
-		
-					$listaDocumentos=$folder->getDocuments($orderby);
-
-					foreach ($listaDocumentos as $documento)
-					 {
-							$categoriasDocumento=$documento->getCategories();
-				   	    	foreach ($categoriasDocumento as $categoria) 
-				   	    	{
-				   	    		if(strcmp($tipo_documento, "ACTAS")==0)
-				   	    		{
-				   	    			//echo "acta </br>";
-				   	    			if(strcmp($categoria->getName(),$stringActas)==0)
-					   	    		{
-					   	    			//echo "es una declaratoria de reserva </br>";
-					   	    			$contadorFinal++;
-					   	    		}
-
-				   	    		}
-				   	    		if(strcmp($tipo_documento, "RESERVAS")==0)
-				   	    		{
-				   	    			//echo "reserva</br>";
-				   	    			if(strcmp($categoria->getName(),$stringDeclaratoriasReserva)==0)
-					   	    		{
-					   	    			//echo "es una declaratoria de reserva </br>";
-					   	    			$contadorFinal++;
-					   	    		}
-				   	    		
-				   	    		}
-				   	    	}
-				   	      }			   	 	
-		      
-   	    ///////////////////////////////
-return $contadorFinal;
+    $totalLlenos=0; 
+   		$ninos=$folder->countChildren($user,0);
+   		$totalLlenos=$ninos['document_count'];
+   		//echo "total llenos para folder: ".$folder->getID()." --".$totalLlenos;
+   		return $totalLlenos;
 }
 class SeedDMS_View_ResultadoFiltroEntes extends SeedDMS_Bootstrap_Style 
 {
@@ -126,8 +93,10 @@ class SeedDMS_View_ResultadoFiltroEntes extends SeedDMS_Bootstrap_Style
 			$idEnte=$_POST["enteObligado"];
 			//echo "creador excel: ".$creadorExcel;
 		}	
+		$this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/tacometros/raphael.js"></script>'."\n", 'js');
 
-		$this->htmlStartPage(getMLText("mi_sitio"), "skin-blue sidebar-mini");
+	    $this->htmlAddHeader('<script type="text/javascript" src="../styles/'.$this->theme.'/plugins/tacometros/justgage.js"></script>'."\n", 'js');
+		$this->htmlStartPage("Avance de institución", "skin-blue sidebar-mini sidebar-collapse");
 		$this->containerStart();
 		$this->mainHeader();
 		$this->mainSideBar();
@@ -142,8 +111,7 @@ class SeedDMS_View_ResultadoFiltroEntes extends SeedDMS_Bootstrap_Style
 				$nombreEnte=$fold->getName();
 				$usuario=$dms->getUser($idEnte);
 				$fotoEnte=$usuario->getImage();
-				$numeroActas=contarDocumentos("ACTAS",$fold,$orderby);
-          		$numeroReservas=contarDocumentos("RESERVAS",$fold,$orderby);
+
 		?>
     <div class="gap-10"></div>
     <div class="row">
@@ -152,48 +120,75 @@ class SeedDMS_View_ResultadoFiltroEntes extends SeedDMS_Bootstrap_Style
 
     <?php
     //en este bloque php va "mi" código
- $this->startBoxPrimary(getMLText("Ver estadísticas del ente ".$nombreEnte));
+ $this->startBoxPrimary("Ver avance en subida del informe de transición de ".$nombreEnte);
 //$this->contentContainerStart();
 //////INICIO MI CODIGO
-
+ $subfases=$fold->getSubFolders(""); //ordenados por secuencia
+ //echo "Nombre del folder 1 sonL ".$subfases[0]->getName();
+$totalf1=contarDocumentos($subfases[0],$user);
+$totalf2=contarDocumentos($subfases[1],$user);
+$totalf3=contarDocumentos($subfases[2],$user);
+$totalf4=contarDocumentos($subfases[3],$user);
+$totalf5=contarDocumentos($subfases[4],$user);
+$totalf6=contarDocumentos($subfases[5],$user);
+$totalf7=contarDocumentos($subfases[6],$user);
 ?>
 <div class="box box-widget widget-user">
             <!-- Add the bg color to the header using any of the bg-* classes -->
             <div class="widget-user-header bg-aqua-active">
               <h3 class="widget-user-username"> <?php  echo $nombreEnte;?> </h3>
-              <h5 class="widget-user-desc">Ente obligado</h5>
+              <h5 class="widget-user-desc">Nombre de la institución</h5>
             </div>
             <div class="widget-user-image">
               <img class="img-circle" src="data:image/png;base64,  <?php  print_r($fotoEnte['image'])?>" alt="User Avatar">
             </div>
             <div class="box-footer">
-              <div class="row">
-                <div class="col-sm-4 border-right">
-                  <div class="description-block">
-                    <h5 class="description-header"><?php  echo $numeroActas;?></h5>
-                    <span class="description-text">Actas de inexistencia</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-4 border-right">
-                  <div class="description-block">
-                    <h5 class="description-header"><?php  echo $numeroReservas;?></h5>
-                    <span class="description-text">Documentos reservados (incluye desclasificados)</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-                <div class="col-sm-4">
-                  <div class="description-block">
-                    <h5 class="description-header"> <?php  echo $numeroReservas+$numeroActas;?></h5>
-                    <span class="description-text">Documentos en total</span>
-                  </div>
-                  <!-- /.description-block -->
-                </div>
-                <!-- /.col -->
-              </div>
-              <!-- /.row -->
+        		<div class="row">
+            		<div class="col-md-4">
+            				<div id="gaugef1" class="200x160px"></div>
+            				<p id="f1"></p>
+            		</div>
+            		<div class="col-md-4">
+            			<div id="gaugef2" class="200x160px"></div>
+            			<p id="f2"></p>
+            		</div>
+            		<div class="col-md-4">
+            			<div id="gaugef3" class="200x160px"></div>
+            			<p id="f3"></p>
+            		</div>
+
+            	</div>
+
+            	<div class="row">
+            		<div class="col-md-4">
+            			<div id="gaugef4" class="200x160px"></div>
+            			<p id="f4"></p>
+            		</div>
+            		<div class="col-md-4">
+            			<div id="gaugef5" class="200x160px"></div>
+            			<p id="f5"></p>
+            		</div>
+            		<div class="col-md-4">
+            			<div id="gaugef6" class="200x160px"></div>
+            			<p id="f6"></p>
+            		</div>
+
+            	</div>
+
+            	<div class="row">
+            		<div class="col-md-4">
+
+            		</div>
+            		<div class="col-md-4">
+            				<div id="gaugef7" class="200x160px"></div>
+            		<p id="f7"></p>
+            		</div>
+            		<div class="col-md-4">
+
+            		</div>
+            		
+            	</div>
+
             </div>
           </div>
         <!-- ./col -->
@@ -205,12 +200,19 @@ $this->endsBoxPrimary();
 	     </div>
 		</div>
 		</div>
-
+		<input type="hidden" id="totalf1" value="<?php echo $totalf1?>" />
+		<input type="hidden" id="totalf2" value="<?php echo $totalf2?>" />
+		<input type="hidden" id="totalf3" value="<?php echo $totalf3?>" />
+		<input type="hidden" id="totalf4" value="<?php echo $totalf4?>" />
+		<input type="hidden" id="totalf5" value="<?php echo $totalf5?>" />
+		<input type="hidden" id="totalf6" value="<?php echo $totalf6?>" />
+		<input type="hidden" id="totalf7" value="<?php echo $totalf7?>" />
 		<?php	
 		$this->contentEnd();
 		$this->mainFooter();		
 		$this->containerEnd();
 		//$this->contentContainerEnd();
+		echo "<script type='text/javascript'  src='../scriptTacometro.js'></script>";
 		$this->htmlEndPage();
 	} /* }}} */
 }

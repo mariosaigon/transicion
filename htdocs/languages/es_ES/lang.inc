@@ -39,7 +39,7 @@ $text = array(
 
 'Estadísticas' => 'Estadísticas',
 'Estadísticas del índice de reserva' => 'Estadísticas del índice de reserva',
-'Lista de oficiales que terminaron su índice' => 'Lista de oficiales que terminaron su índice',
+'Lista de oficiales que terminaron su índice' => 'Avance en el informe por institución',
 'Estadísticas por departamento' => 'Estadísticas por departamento',
 'tipo_clasificacion' => 'Tipo de clasificación',
 'fecha_emision' => 'Fecha de emisión',

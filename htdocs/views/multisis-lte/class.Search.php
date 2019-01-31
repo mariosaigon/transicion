@@ -202,10 +202,10 @@ class SeedDMS_View_Search extends SeedDMS_Bootstrap_Style {
 
 
 
-<tr>
+<!-- <tr>
 <td><?php printMLText("under_folder")?>:</td>
 <td><?php $this->printFolderChooserHtml("form1", M_READ, -1, $startfolder);?></td>
-</tr>
+</tr> -->
 <tr>
 <td><?php printMLText("creation_date");?>:</td>
 <td>
@@ -226,58 +226,7 @@ class SeedDMS_View_Search extends SeedDMS_Bootstrap_Style {
 
 
 <!--   AQUI HAGO LA PARTE DE RANGO DE FECHAS -->
-<tr>
-<td><?php printMLText("Rango de fechas");?>:</td>
-<td>
-        <label class="checkbox inline">
-				  <input type="checkbox" name="quieroRango" value="true" <?php if($creationdate) echo "checked"; ?>/><?php printMLText("quiero rango");?>
-        </label><br />
-		<!--   AQUI HAGO AGARRAR UNA FECHA DE INICIO 
-		name: fechaInicio  //con el name es que hago referencia en el otro fichero, y no con el id, ojo
-		id: createstartdate  //esto me hace que se me displeye el calendario cuando pulso en la fecha
-		Este  nombre, debo buscarlo en el fichero /out/out.Search.php, en la parte con el comment "// Is the search restricted to documents created between two specific dates?"
-		en la línea if(isset($_GET["fechaInicio"])) {
-		-->
 
-        <span class="input-append date" style="display: inline;" id="createstartdate" data-date="<?php echo date('Y-m-d'); ?>" data-date-format="yyyy-mm-dd" data-date-language="<?php echo str_replace('_', '-', $this->params['session']->getLanguage()); ?>">
-          <input class="span4 form-control" size="16" name="fechaInicio" type="text" value="<?php 
-		  if($startdate) 
-		  { 
-		    //se mete aqui si en la página ya hay predefinido una fecha que aparece en el calendario, esto no supone ningún problema
-	       printf("%04d-%02d-%02d", $startdate['year'], $startdate['month'], $startdate['day']); 
-	      }
-	      else 
-		  { 
-			//se mete aqui si no hay fecha, metería una fecha, supongon la actual
-			  echo date('Y-m-d'); 
-		  }
-		  ?>">
-          <span class="add-on"><i class="icon-calendar"></i></span>
-        </span>&nbsp;
-		<!--   AQUI HAGO AGARRAR UNA FECHA DE FIN -->
-<!--   AQUI HAGO AGARRAR UNA FECHA DE INICIO 
-		name: fechaFin
-		id: createenddate
-		Estos id y nombre, debo buscarlos en el fichero /out/out.Search.php, en la parte con el comment "// Is the search restricted to documents created between two specific dates?"
-		en la línea if(isset($_GET["fechaFin"])) {
-		-->
-				<?php printMLText("and"); ?>
-        <span class="input-append date" style="display: inline;" id="createenddate" data-date="<?php echo date('Y-m-d'); ?>" data-date-format="yyyy-mm-dd" data-date-language="<?php echo str_replace('_', '-', $this->params['session']->getLanguage()); ?>">
-          <input class="span4 form-control" size="16" name="fechaFin" type="text" value="<?php 
-		  if($stopdate)
-		  {	
-	  printf("%04d-%02d-%02d", $stopdate['year'], $stopdate['month'], $stopdate['day']);
-	  }
-	  else 
-	  {
-		  echo date('Y-m-d'); 
-	  }
-		  
-	  ?>">
-          <span class="add-on"><i class="icon-calendar"></i></span>
-        </span>
-</td>
-</tr>
 <?php
 		if($attrdefs) {
 			foreach($attrdefs as $attrdef) {
@@ -557,14 +506,14 @@ class SeedDMS_View_Search extends SeedDMS_Bootstrap_Style {
 						} else {
 							$docName = htmlspecialchars($document->getName());
 						}
-						print "<td><a class=\"standardText\" href=\"out/out.ViewDocument.php?documentid=".$document->getID()."\">";
+						print "<td><a class=\"standardText\" href=\"../out/out.ViewDocument.php?documentid=".$document->getID()."\">";
 						if($previewer->hasPreview($lc)) {
 							print "<img class=\"mimeicon\" width=\"".$previewwidth."\"src=\"../op/op.Preview.php?documentid=".$document->getID()."&version=".$lc->getVersion()."&width=".$previewwidth."\" title=\"".htmlspecialchars($lc->getMimeType())."\">";
 						} else {
 							print "<img class=\"mimeicon\" src=\"".$this->getMimeIcon($lc->getFileType())."\" title=\"".htmlspecialchars($lc->getMimeType())."\">";
 						}
 						print "</a></td>";
-						print "<td><a class=\"standardText\" href=\"out/out.ViewDocument.php?documentid=".$document->getID()."\">/";
+						print "<td><a class=\"standardText\" href=\"../out/out.ViewDocument.php?documentid=".$document->getID()."\">/";
 						$folder = $document->getFolder();
 						$path = $folder->getPath();
 						for ($i = 1; $i  < count($path); $i++) {

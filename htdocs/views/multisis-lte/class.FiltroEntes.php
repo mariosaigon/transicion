@@ -92,8 +92,8 @@ class SeedDMS_View_FiltroEntes extends SeedDMS_Bootstrap_Style
 		$db = $dms->getDB();
 		$previewer = new SeedDMS_Preview_Previewer($cachedir, $previewwidth, $timeout);
 		$ruta_pagina_salida="../out/out.CaducaranPronto.php";
-
-		$this->htmlStartPage(getMLText("mi_sitio"), "skin-blue sidebar-mini");
+		$this->htmlStartPage("Selección de institución", "skin-blue sidebar-mini sidebar-collapse");
+		//$this->htmlStartPage("skin-blue sidebar-mini sidebar-collapse");
 		$this->containerStart();
 		$this->mainHeader();
 		$this->mainSideBar();
@@ -108,15 +108,15 @@ class SeedDMS_View_FiltroEntes extends SeedDMS_Bootstrap_Style
 
     <?php
     //en este bloque php va "mi" código
- $this->startBoxPrimary(getMLText("Ver estadísticas de un único ente obligado"));
+ $this->startBoxPrimary("Seleccione una institución para ver avance en subida de documentos del informe de transición");
 $this->contentContainerStart();
 //////INICIO MI CODIGO
 ?>
 <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Seleccione un ente obligado de la lista (puede teclear su nombre)</h3>
+              <h3 class="box-title">Seleccione una institución de la lista (puede teclear su nombre)</h3>
             </div>
-		<form action="/out/out.ResultadoFiltroEntes.php" method="post" >
+		<form action="../out/out.ResultadoFiltroEntes.php" method="post" >
 
 <select class="chzn-select-deselect form-control" name="enteObligado" data-placeholder="<?php printMLText('select_users'); ?>" data-no_results_text="<?php printMLText('unknown_owner'); ?>">
 <option value="-1"></option>
