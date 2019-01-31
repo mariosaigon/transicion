@@ -101,14 +101,14 @@ function imprimirFormato($folder)
               <div class="modal-body">';
               //IMPRIMO MENSAJITO Y FOTO
                 echo "<p>Por favor, descargue el formato correspondiente en el botón \"Descargar formato\" donde deberá completar un documento como éste:</p>";
-                echo "<img src=\"".$rutaFoto."\" class=\"img-fluid\" alt=\"Foto del formato a elaborar para la transición\">";
+                echo "<img src=\"".$rutaFoto."\" class=\"img-fluid\" alt=\"Foto del formato a elaborar para la transición\" height=\"400\" width=\"550\">";
 
                 //////////
               echo '</div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Cerrar</button>
-                <button type="button" class="btn btn-outline ">Descargar formato</button>
-              </div>
+                <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Cerrar</button>';
+                echo "<a href=\"".$rutaFormato."\" class=\"btn btn-info\" role=\"button\">DESCARGAR FORMATO</a>";
+              echo '</div>
             </div>
             <!-- /.modal-content -->
           </div>
@@ -854,17 +854,17 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
           <div class="tab-pane active" id="tab_1">
 			    	<div class="form-group">
 	            <label><?php echo getMLText("name"); ?>: <span class="is-required">*</span></label>
-	            <input type="text" class="form-control" name="name" id="" placeholder="" required>
+	            <input type="text" class="form-control" name="name" id="" placeholder="Ingrese un nombre descriptivo para el documento" required>
 	          </div>
 	          <div class="form-group">
 	            <label><?php echo getMLText("comment"); ?>: <span class="is-required">*</span></label>
-	            <textarea name="comment" class="form-control" rows="3" placeholder="" required></textarea>
+	            <textarea name="comment" class="form-control" rows="3" placeholder="Ingrese comentarios u observaciones relacionados con el documento solicitado para la transición" required></textarea>
 	          </div>
-	          <div class="form-group">
+	          <div class="form-group" style="display: none;">
 	            <label><?php echo getMLText("keywords");?>:</label>
 	            <?php $this->printKeywordChooserHtml("form2");?>
 	          </div>
-	          <div class="form-group">
+	          <div class="form-group" style="display: none;">
 	            <label><?php printMLText("categories")?>:</label>
 	            <select class="form-control chzn-select" name="categories[]" multiple="multiple" data-no_results_text="<?php printMLText('unknown_document_category'); ?>">
 							<?php
@@ -876,7 +876,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 							?>
 							</select>
 	          </div>
-	          <div class="form-group">
+	          <div class="form-group" style="display: none;">
 	            <label><?php printMLText("sequence");?>:</label>
 	            <?php $this->printSequenceChooser($folder->getDocuments('s')); if($orderby != 's') echo "<br />".getMLText('order_by_sequence_off'); ?>
 	          </div>
@@ -916,7 +916,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 							}
 							?>
 						</div>
-						<div class="form-group">
+						<div class="form-group" style="display: none;">
 							<label><?php printMLText("expires");?>: <span class="is-required">*</span></label>
 			        <div class="input-append date span12" id="expirationdate" data-date="" data-date-format="yyyy-mm-dd" data-date-language="<?php echo str_replace('_', '-', $this->params['session']->getLanguage()); ?>" data-checkbox="#expires">
 			          <input class="form-control" size="16" name="expdate" type="text" value="">
@@ -935,7 +935,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
           </div>
           <!-- /.tab-pane -->
           <div class="tab-pane" id="tab_2">
-          	<div class="form-group">
+          	<div class="form-group" style="display: none;">
 	            <label><?php printMLText("version");?>:</label>
 	            <input type="text" class="form-control" name="reqversion" value="1">
 	          </div>
@@ -947,7 +947,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 								$this->printFileChooser('userfile[]', false);
 							?>
 	          </div>
-	          <div class="form-group">
+	          <div class="form-group" style="display: none;">
 	          	<label><?php printMLText("comment_for_current_version");?>:</label>
 	          	<textarea class="form-control" name="version_comment" rows="3" cols="80"></textarea>
 	          	<div class="checkbox">
@@ -1012,7 +1012,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
           </div>
               <!-- /.tab-pane -->
           <div class="tab-pane" id="tab_3">
-            <div class="form-group">
+            <div class="form-group" style="display: none;">
             	<label><?php printMLText("individuals");?>:</label>
             	<select class="chzn-select span9 form-control" name="notification_users[]" multiple="multiple"">
 								<?php
@@ -1024,7 +1024,7 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 								?>
 							</select>
             </div>
-            <div class="form-group">
+            <div class="form-group" style="display: none;">
 							<label><?php printMLText("groups");?>:</label>
 							<select class="chzn-select span9" name="notification_groups[]" multiple="multiple">
 								<?php
@@ -1036,6 +1036,12 @@ CAMBIADO: 12/09/17 JOSE MARIO LOPEZ LEIVA---- */
 								?>
 							</select>
 						</div>
+
+						<div class="callout callout-info">
+                <h4>CONFIRMAR SUBIDA</h4>
+
+                <p>Haciendo clic en 'GUARDAR' añadirá el presente archivo a esta sección del informe de transición, ¿está seguro?</p>
+              </div>
 						<div class="box-footer">
 							<a type="button" class="btn btn-default cancel-add-document"><?php echo getMLText("cancel"); ?></a>
 							<button type="submit" class="btn btn-info pull-right"><i class="fa fa-save"></i> <?php echo getMLText("save"); ?></button>

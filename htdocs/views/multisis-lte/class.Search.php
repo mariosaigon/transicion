@@ -104,18 +104,16 @@ class SeedDMS_View_Search extends SeedDMS_Bootstrap_Style {
 
 		if($user->isAdmin())
 		{
-			$this->htmlStartPage("Buscador de documentos del índice IAIP", "skin-blue sidebar-mini sidebar-collapse",$baseServer);
+			$this->htmlStartPage("Buscador de documentos de sistema de transición", "skin-blue sidebar-mini sidebar-collapse");
+			//$this->mainSideBar($folder->getID(),0,0);
 		}
 		else
 		{
-			$this->htmlStartPage("Buscador de documentos del índice IAIP","skin-blue layout-top-nav",$baseServer);
+			$this->htmlStartPage("Buscador de documentos de sistema de transición","skin-blue layout-top-nav");
 		}
 		$this->containerStart();
 		$this->mainHeader();		
-		if($user->isAdmin())
-		{
-			$this->mainSideBar($folder->getID(),0,0);
-		}
+
 		$this->contentStart();
 
 
